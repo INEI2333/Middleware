@@ -1,0 +1,30 @@
+2026-01-15 14:54:00,407 MainThread INFO Starting middleware comp_1 ...
+2026-01-15 14:54:00,408 MainThread INFO MainThread start.
+2026-01-15 14:54:00,608 InputThread INFO InputThread start.
+2026-01-15 14:54:00,609 OutputThread INFO OutputThread start.
+2026-01-15 14:54:00,609 CmdThread INFO CmdThread connect operator at tcp://127.0.0.1:6000 (id=comp_1)
+2026-01-15 14:54:00,610 InputThread INFO [input] connect: tcp://127.0.0.1:5550
+2026-01-15 14:54:00,610 MainThread INFO All threads started.
+2026-01-15 14:54:00,610 OutputThread INFO [output] bind: tcp://127.0.0.1:5556
+2026-01-15 14:54:03,096 MainThread INFO Registered downstream: Down0
+2026-01-15 14:54:03,096 MainThread INFO Registered downstream: Down1
+2026-01-15 14:54:03,097 MainThread INFO Registered downstream: Down2
+2026-01-15 14:54:03,097 MainThread INFO Registered downstream: Down4
+2026-01-15 14:54:03,097 MainThread INFO Registered downstream: Down3
+2026-01-15 14:54:03,098 MainThread INFO Registered downstream: Down5
+2026-01-15 14:54:03,098 MainThread INFO Registered downstream: Down6
+2026-01-15 14:54:03,098 MainThread INFO Registered downstream: Down7
+2026-01-15 14:54:03,099 MainThread INFO Registered downstream: Down8
+2026-01-15 14:54:03,099 MainThread INFO Registered downstream: Down9
+2026-01-15 14:54:03,099 MainThread INFO Registered downstream: Down10
+2026-01-15 14:54:03,099 MainThread INFO Registered downstream: Down11
+2026-01-15 14:54:03,100 MainThread INFO Registered downstream: Down12
+2026-01-15 14:54:03,100 MainThread INFO Registered downstream: Down13
+2026-01-15 14:54:03,100 MainThread INFO Registered downstream: Down14
+2026-01-15 14:54:03,101 MainThread INFO Registered downstream: Down15
+2026-01-15 14:54:07,967 MainThread INFO Ctrl+C. closing...
+2026-01-15 14:54:08,005 InputThread INFO InputThread stopped.
+2026-01-15 14:54:08,005 MainThread INFO MainThread stopped.
+2026-01-15 14:54:08,005 OutputThread INFO OutputThread stopped.
+2026-01-15 14:54:08,038 CmdThread INFO CmdThread stopped.
+2026-01-15 14:54:08,039 MainThread INFO Middleware stopped.

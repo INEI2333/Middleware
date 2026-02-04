@@ -1,0 +1,1027 @@
+2026-01-15 14:38:13,198 MainThread INFO ZeroMQ Tester started.
+2026-01-15 14:38:13,199 MainThread INFO Waiting for middleware to fully start...
+2026-01-15 14:38:13,200 Down-Down0 INFO Downstream Down0 connect tcp://127.0.0.1:5556
+2026-01-15 14:38:13,200 Down-Down1 INFO Downstream Down1 connect tcp://127.0.0.1:5556
+2026-01-15 14:38:14,202 Down-Down0 INFO Down0 send HELLO
+2026-01-15 14:38:14,203 Down-Down1 INFO Down1 send HELLO
+2026-01-15 14:38:14,204 Down-Down0 INFO Downstream Down0 registered successfully
+2026-01-15 14:38:14,204 Down-Down1 INFO Downstream Down1 registered successfully
+2026-01-15 14:38:14,204 Up-TesterUp_1 INFO Upstream TesterUp_1 received all downstream registration success signals, starting to send messages.
+2026-01-15 14:38:14,205 Up-TesterUp_1 INFO Upstream TesterUp_1 bind tcp://127.0.0.1:5550
+2026-01-15 14:38:15,207 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1768455495.2072737']
+2026-01-15 14:38:15,208 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1768455495.2072737'] latency=1.432ms
+2026-01-15 14:38:15,208 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1768455495.2072737'] latency=1.564ms
+2026-01-15 14:38:15,218 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1768455495.2184699']
+2026-01-15 14:38:15,219 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1768455495.2184699'] latency=0.763ms
+2026-01-15 14:38:15,219 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1768455495.2184699'] latency=0.860ms
+2026-01-15 14:38:15,229 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1768455495.2290447']
+2026-01-15 14:38:15,229 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1768455495.2290447'] latency=0.539ms
+2026-01-15 14:38:15,229 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1768455495.2290447'] latency=0.649ms
+2026-01-15 14:38:15,239 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1768455495.239518']
+2026-01-15 14:38:15,240 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1768455495.239518'] latency=0.587ms
+2026-01-15 14:38:15,240 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1768455495.239518'] latency=0.693ms
+2026-01-15 14:38:15,249 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1768455495.2499437']
+2026-01-15 14:38:15,251 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1768455495.2499437'] latency=1.207ms
+2026-01-15 14:38:15,251 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1768455495.2499437'] latency=1.320ms
+2026-01-15 14:38:15,260 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-5', b'1768455495.2609117']
+2026-01-15 14:38:15,261 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-5', b'1768455495.2609117'] latency=0.531ms
+2026-01-15 14:38:15,261 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-5', b'1768455495.2609117'] latency=0.637ms
+2026-01-15 14:38:15,271 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-6', b'1768455495.2713459']
+2026-01-15 14:38:15,272 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-6', b'1768455495.2713459'] latency=0.685ms
+2026-01-15 14:38:15,272 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-6', b'1768455495.2713459'] latency=0.766ms
+2026-01-15 14:38:15,281 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-7', b'1768455495.2818096']
+2026-01-15 14:38:15,282 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-7', b'1768455495.2818096'] latency=0.641ms
+2026-01-15 14:38:15,282 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-7', b'1768455495.2818096'] latency=0.791ms
+2026-01-15 14:38:15,292 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-8', b'1768455495.292225']
+2026-01-15 14:38:15,292 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-8', b'1768455495.292225'] latency=0.515ms
+2026-01-15 14:38:15,292 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-8', b'1768455495.292225'] latency=0.678ms
+2026-01-15 14:38:15,302 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-9', b'1768455495.3026423']
+2026-01-15 14:38:15,303 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-9', b'1768455495.3026423'] latency=0.567ms
+2026-01-15 14:38:15,303 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-9', b'1768455495.3026423'] latency=0.675ms
+2026-01-15 14:38:15,313 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-10', b'1768455495.3130662']
+2026-01-15 14:38:15,313 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-10', b'1768455495.3130662'] latency=0.567ms
+2026-01-15 14:38:15,313 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-10', b'1768455495.3130662'] latency=0.671ms
+2026-01-15 14:38:15,323 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-11', b'1768455495.3234544']
+2026-01-15 14:38:15,324 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-11', b'1768455495.3234544'] latency=0.617ms
+2026-01-15 14:38:15,324 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-11', b'1768455495.3234544'] latency=0.700ms
+2026-01-15 14:38:15,333 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-12', b'1768455495.3338695']
+2026-01-15 14:38:15,334 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-12', b'1768455495.3338695'] latency=0.668ms
+2026-01-15 14:38:15,334 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-12', b'1768455495.3338695'] latency=0.773ms
+2026-01-15 14:38:15,344 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-13', b'1768455495.3443198']
+2026-01-15 14:38:15,345 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-13', b'1768455495.3443198'] latency=0.830ms
+2026-01-15 14:38:15,345 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-13', b'1768455495.3443198'] latency=0.950ms
+2026-01-15 14:38:15,355 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-14', b'1768455495.354939']
+2026-01-15 14:38:15,355 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-14', b'1768455495.354939'] latency=0.681ms
+2026-01-15 14:38:15,355 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-14', b'1768455495.354939'] latency=0.766ms
+2026-01-15 14:38:15,365 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-15', b'1768455495.365415']
+2026-01-15 14:38:15,366 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-15', b'1768455495.365415'] latency=0.561ms
+2026-01-15 14:38:15,366 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-15', b'1768455495.365415'] latency=0.671ms
+2026-01-15 14:38:15,375 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-16', b'1768455495.375847']
+2026-01-15 14:38:15,376 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-16', b'1768455495.375847'] latency=0.527ms
+2026-01-15 14:38:15,376 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-16', b'1768455495.375847'] latency=0.651ms
+2026-01-15 14:38:15,386 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-17', b'1768455495.3862674']
+2026-01-15 14:38:15,386 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-17', b'1768455495.3862674'] latency=0.602ms
+2026-01-15 14:38:15,386 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-17', b'1768455495.3862674'] latency=0.694ms
+2026-01-15 14:38:15,396 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-18', b'1768455495.3967128']
+2026-01-15 14:38:15,397 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-18', b'1768455495.3967128'] latency=0.766ms
+2026-01-15 14:38:15,397 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-18', b'1768455495.3967128'] latency=0.890ms
+2026-01-15 14:38:15,407 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-19', b'1768455495.4071612']
+2026-01-15 14:38:15,407 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-19', b'1768455495.4071612'] latency=0.674ms
+2026-01-15 14:38:15,407 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-19', b'1768455495.4071612'] latency=0.804ms
+2026-01-15 14:38:15,417 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-20', b'1768455495.417755']
+2026-01-15 14:38:15,418 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-20', b'1768455495.417755'] latency=0.917ms
+2026-01-15 14:38:15,418 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-20', b'1768455495.417755'] latency=1.055ms
+2026-01-15 14:38:15,428 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-21', b'1768455495.4285939']
+2026-01-15 14:38:15,429 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-21', b'1768455495.4285939'] latency=0.760ms
+2026-01-15 14:38:15,429 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-21', b'1768455495.4285939'] latency=0.895ms
+2026-01-15 14:38:15,439 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-22', b'1768455495.439279']
+2026-01-15 14:38:15,440 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-22', b'1768455495.439279'] latency=0.929ms
+2026-01-15 14:38:15,440 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-22', b'1768455495.439279'] latency=1.088ms
+2026-01-15 14:38:15,450 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-23', b'1768455495.4500484']
+2026-01-15 14:38:15,450 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-23', b'1768455495.4500484'] latency=0.916ms
+2026-01-15 14:38:15,451 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-23', b'1768455495.4500484'] latency=1.034ms
+2026-01-15 14:38:15,460 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-24', b'1768455495.4607587']
+2026-01-15 14:38:15,461 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-24', b'1768455495.4607587'] latency=0.947ms
+2026-01-15 14:38:15,461 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-24', b'1768455495.4607587'] latency=1.068ms
+2026-01-15 14:38:15,471 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-25', b'1768455495.4716673']
+2026-01-15 14:38:15,472 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-25', b'1768455495.4716673'] latency=0.740ms
+2026-01-15 14:38:15,472 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-25', b'1768455495.4716673'] latency=0.867ms
+2026-01-15 14:38:15,482 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-26', b'1768455495.4823308']
+2026-01-15 14:38:15,483 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-26', b'1768455495.4823308'] latency=0.783ms
+2026-01-15 14:38:15,483 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-26', b'1768455495.4823308'] latency=0.938ms
+2026-01-15 14:38:15,493 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-27', b'1768455495.4930205']
+2026-01-15 14:38:15,493 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-27', b'1768455495.4930205'] latency=0.810ms
+2026-01-15 14:38:15,493 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-27', b'1768455495.4930205'] latency=0.903ms
+2026-01-15 14:38:15,503 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-28', b'1768455495.5036821']
+2026-01-15 14:38:15,504 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-28', b'1768455495.5036821'] latency=0.773ms
+2026-01-15 14:38:15,504 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-28', b'1768455495.5036821'] latency=0.931ms
+2026-01-15 14:38:15,514 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-29', b'1768455495.5145054']
+2026-01-15 14:38:15,515 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-29', b'1768455495.5145054'] latency=1.240ms
+2026-01-15 14:38:15,515 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-29', b'1768455495.5145054'] latency=1.381ms
+2026-01-15 14:38:15,525 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-30', b'1768455495.5256615']
+2026-01-15 14:38:15,526 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-30', b'1768455495.5256615'] latency=0.857ms
+2026-01-15 14:38:15,526 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-30', b'1768455495.5256615'] latency=0.962ms
+2026-01-15 14:38:15,536 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-31', b'1768455495.5363257']
+2026-01-15 14:38:15,536 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-31', b'1768455495.5363257'] latency=0.624ms
+2026-01-15 14:38:15,537 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-31', b'1768455495.5363257'] latency=0.737ms
+2026-01-15 14:38:15,546 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-32', b'1768455495.5468142']
+2026-01-15 14:38:15,547 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-32', b'1768455495.5468142'] latency=0.740ms
+2026-01-15 14:38:15,547 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-32', b'1768455495.5468142'] latency=0.856ms
+2026-01-15 14:38:15,557 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-33', b'1768455495.5573852']
+2026-01-15 14:38:15,558 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-33', b'1768455495.5573852'] latency=0.617ms
+2026-01-15 14:38:15,558 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-33', b'1768455495.5573852'] latency=0.748ms
+2026-01-15 14:38:15,567 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-34', b'1768455495.5678494']
+2026-01-15 14:38:15,568 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-34', b'1768455495.5678494'] latency=0.575ms
+2026-01-15 14:38:15,568 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-34', b'1768455495.5678494'] latency=0.745ms
+2026-01-15 14:38:15,578 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-35', b'1768455495.578287']
+2026-01-15 14:38:15,578 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-35', b'1768455495.578287'] latency=0.563ms
+2026-01-15 14:38:15,578 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-35', b'1768455495.578287'] latency=0.678ms
+2026-01-15 14:38:15,588 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-36', b'1768455495.5886855']
+2026-01-15 14:38:15,589 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-36', b'1768455495.5886855'] latency=0.631ms
+2026-01-15 14:38:15,589 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-36', b'1768455495.5886855'] latency=0.750ms
+2026-01-15 14:38:15,599 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-37', b'1768455495.599162']
+2026-01-15 14:38:15,599 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-37', b'1768455495.599162'] latency=0.684ms
+2026-01-15 14:38:15,600 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-37', b'1768455495.599162'] latency=0.808ms
+2026-01-15 14:38:15,609 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-38', b'1768455495.6095705']
+2026-01-15 14:38:15,610 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-38', b'1768455495.6095705'] latency=0.552ms
+2026-01-15 14:38:15,610 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-38', b'1768455495.6095705'] latency=0.821ms
+2026-01-15 14:38:15,620 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-39', b'1768455495.6200585']
+2026-01-15 14:38:15,620 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-39', b'1768455495.6200585'] latency=0.571ms
+2026-01-15 14:38:15,620 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-39', b'1768455495.6200585'] latency=0.677ms
+2026-01-15 14:38:15,630 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-40', b'1768455495.6305902']
+2026-01-15 14:38:15,631 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-40', b'1768455495.6305902'] latency=1.026ms
+2026-01-15 14:38:15,631 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-40', b'1768455495.6305902'] latency=1.161ms
+2026-01-15 14:38:15,641 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-41', b'1768455495.6414688']
+2026-01-15 14:38:15,642 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-41', b'1768455495.6414688'] latency=0.747ms
+2026-01-15 14:38:15,642 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-41', b'1768455495.6414688'] latency=0.886ms
+2026-01-15 14:38:15,652 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-42', b'1768455495.6521714']
+2026-01-15 14:38:15,652 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-42', b'1768455495.6521714'] latency=0.775ms
+2026-01-15 14:38:15,653 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-42', b'1768455495.6521714'] latency=0.911ms
+2026-01-15 14:38:15,663 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-43', b'1768455495.6628768']
+2026-01-15 14:38:15,663 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-43', b'1768455495.6628768'] latency=0.923ms
+2026-01-15 14:38:15,663 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-43', b'1768455495.6628768'] latency=1.044ms
+2026-01-15 14:38:15,673 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-44', b'1768455495.6736648']
+2026-01-15 14:38:15,674 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-44', b'1768455495.6736648'] latency=0.697ms
+2026-01-15 14:38:15,674 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-44', b'1768455495.6736648'] latency=0.827ms
+2026-01-15 14:38:15,684 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-45', b'1768455495.684272']
+2026-01-15 14:38:15,685 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-45', b'1768455495.684272'] latency=0.780ms
+2026-01-15 14:38:15,685 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-45', b'1768455495.684272'] latency=0.914ms
+2026-01-15 14:38:15,695 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-46', b'1768455495.6949644']
+2026-01-15 14:38:15,695 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-46', b'1768455495.6949644'] latency=0.821ms
+2026-01-15 14:38:15,695 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-46', b'1768455495.6949644'] latency=0.957ms
+2026-01-15 14:38:15,706 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-47', b'1768455495.7057483']
+2026-01-15 14:38:15,706 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-47', b'1768455495.7057483'] latency=1.182ms
+2026-01-15 14:38:15,707 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-47', b'1768455495.7057483'] latency=1.328ms
+2026-01-15 14:38:15,717 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-48', b'1768455495.7168922']
+2026-01-15 14:38:15,717 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-48', b'1768455495.7168922'] latency=0.881ms
+2026-01-15 14:38:15,717 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-48', b'1768455495.7168922'] latency=1.012ms
+2026-01-15 14:38:15,727 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-49', b'1768455495.7277105']
+2026-01-15 14:38:15,728 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-49', b'1768455495.7277105'] latency=0.794ms
+2026-01-15 14:38:15,728 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-49', b'1768455495.7277105'] latency=0.911ms
+2026-01-15 14:38:15,739 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-50', b'1768455495.7391434']
+2026-01-15 14:38:15,739 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-50', b'1768455495.7391434'] latency=0.720ms
+2026-01-15 14:38:15,740 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-50', b'1768455495.7391434'] latency=0.861ms
+2026-01-15 14:38:15,749 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-51', b'1768455495.7496245']
+2026-01-15 14:38:15,750 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-51', b'1768455495.7496245'] latency=0.725ms
+2026-01-15 14:38:15,750 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-51', b'1768455495.7496245'] latency=0.840ms
+2026-01-15 14:38:15,760 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-52', b'1768455495.7601635']
+2026-01-15 14:38:15,760 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-52', b'1768455495.7601635'] latency=0.654ms
+2026-01-15 14:38:15,760 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-52', b'1768455495.7601635'] latency=0.759ms
+2026-01-15 14:38:15,770 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-53', b'1768455495.770552']
+2026-01-15 14:38:15,771 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-53', b'1768455495.770552'] latency=0.503ms
+2026-01-15 14:38:15,771 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-53', b'1768455495.770552'] latency=0.622ms
+2026-01-15 14:38:15,780 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-54', b'1768455495.780942']
+2026-01-15 14:38:15,781 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-54', b'1768455495.780942'] latency=0.541ms
+2026-01-15 14:38:15,781 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-54', b'1768455495.780942'] latency=0.654ms
+2026-01-15 14:38:15,791 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-55', b'1768455495.7913523']
+2026-01-15 14:38:15,791 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-55', b'1768455495.7913523'] latency=0.566ms
+2026-01-15 14:38:15,792 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-55', b'1768455495.7913523'] latency=0.696ms
+2026-01-15 14:38:15,801 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-56', b'1768455495.8019059']
+2026-01-15 14:38:15,802 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-56', b'1768455495.8019059'] latency=0.552ms
+2026-01-15 14:38:15,802 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-56', b'1768455495.8019059'] latency=0.669ms
+2026-01-15 14:38:15,812 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-57', b'1768455495.81233']
+2026-01-15 14:38:15,812 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-57', b'1768455495.81233'] latency=0.644ms
+2026-01-15 14:38:15,813 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-57', b'1768455495.81233'] latency=0.753ms
+2026-01-15 14:38:15,822 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-58', b'1768455495.8228097']
+2026-01-15 14:38:15,823 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-58', b'1768455495.8228097'] latency=0.724ms
+2026-01-15 14:38:15,823 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-58', b'1768455495.8228097'] latency=0.852ms
+2026-01-15 14:38:15,833 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-59', b'1768455495.8333745']
+2026-01-15 14:38:15,834 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-59', b'1768455495.8333745'] latency=0.833ms
+2026-01-15 14:38:15,834 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-59', b'1768455495.8333745'] latency=0.954ms
+2026-01-15 14:38:15,844 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-60', b'1768455495.8441343']
+2026-01-15 14:38:15,845 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-60', b'1768455495.8441343'] latency=0.983ms
+2026-01-15 14:38:15,845 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-60', b'1768455495.8441343'] latency=1.117ms
+2026-01-15 14:38:15,855 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-61', b'1768455495.8550093']
+2026-01-15 14:38:15,855 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-61', b'1768455495.8550093'] latency=0.862ms
+2026-01-15 14:38:15,856 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-61', b'1768455495.8550093'] latency=0.995ms
+2026-01-15 14:38:15,865 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-62', b'1768455495.8658226']
+2026-01-15 14:38:15,866 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-62', b'1768455495.8658226'] latency=0.794ms
+2026-01-15 14:38:15,866 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-62', b'1768455495.8658226'] latency=0.981ms
+2026-01-15 14:38:15,876 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-63', b'1768455495.8764806']
+2026-01-15 14:38:15,877 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-63', b'1768455495.8764806'] latency=0.705ms
+2026-01-15 14:38:15,877 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-63', b'1768455495.8764806'] latency=0.846ms
+2026-01-15 14:38:15,887 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-64', b'1768455495.8871484']
+2026-01-15 14:38:15,888 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-64', b'1768455495.8871484'] latency=1.079ms
+2026-01-15 14:38:15,888 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-64', b'1768455495.8871484'] latency=1.176ms
+2026-01-15 14:38:15,898 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-65', b'1768455495.8981116']
+2026-01-15 14:38:15,899 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-65', b'1768455495.8981116'] latency=1.275ms
+2026-01-15 14:38:15,899 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-65', b'1768455495.8981116'] latency=1.494ms
+2026-01-15 14:38:15,909 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-66', b'1768455495.9091883']
+2026-01-15 14:38:15,909 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-66', b'1768455495.9091883'] latency=0.749ms
+2026-01-15 14:38:15,910 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-66', b'1768455495.9091883'] latency=0.905ms
+2026-01-15 14:38:15,919 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-67', b'1768455495.9198453']
+2026-01-15 14:38:15,920 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-67', b'1768455495.9198453'] latency=0.782ms
+2026-01-15 14:38:15,920 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-67', b'1768455495.9198453'] latency=0.915ms
+2026-01-15 14:38:15,930 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-68', b'1768455495.9306405']
+2026-01-15 14:38:15,931 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-68', b'1768455495.9306405'] latency=0.995ms
+2026-01-15 14:38:15,931 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-68', b'1768455495.9306405'] latency=1.108ms
+2026-01-15 14:38:15,941 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-69', b'1768455495.9413884']
+2026-01-15 14:38:15,942 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-69', b'1768455495.9413884'] latency=0.619ms
+2026-01-15 14:38:15,942 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-69', b'1768455495.9413884'] latency=0.710ms
+2026-01-15 14:38:15,951 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-70', b'1768455495.9518259']
+2026-01-15 14:38:15,952 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-70', b'1768455495.9518259'] latency=0.743ms
+2026-01-15 14:38:15,952 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-70', b'1768455495.9518259'] latency=0.845ms
+2026-01-15 14:38:15,962 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-71', b'1768455495.9625654']
+2026-01-15 14:38:15,963 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-71', b'1768455495.9625654'] latency=0.917ms
+2026-01-15 14:38:15,963 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-71', b'1768455495.9625654'] latency=1.095ms
+2026-01-15 14:38:15,973 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-72', b'1768455495.973338']
+2026-01-15 14:38:15,974 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-72', b'1768455495.973338'] latency=0.746ms
+2026-01-15 14:38:15,974 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-72', b'1768455495.973338'] latency=0.865ms
+2026-01-15 14:38:15,983 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-73', b'1768455495.9839275']
+2026-01-15 14:38:15,984 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-73', b'1768455495.9839275'] latency=0.593ms
+2026-01-15 14:38:15,984 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-73', b'1768455495.9839275'] latency=0.702ms
+2026-01-15 14:38:15,994 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-74', b'1768455495.9943411']
+2026-01-15 14:38:15,994 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-74', b'1768455495.9943411'] latency=0.584ms
+2026-01-15 14:38:15,995 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-74', b'1768455495.9943411'] latency=0.695ms
+2026-01-15 14:38:16,004 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-75', b'1768455496.0047686']
+2026-01-15 14:38:16,005 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-75', b'1768455496.0047686'] latency=0.594ms
+2026-01-15 14:38:16,005 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-75', b'1768455496.0047686'] latency=0.697ms
+2026-01-15 14:38:16,015 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-76', b'1768455496.0152018']
+2026-01-15 14:38:16,015 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-76', b'1768455496.0152018'] latency=0.601ms
+2026-01-15 14:38:16,015 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-76', b'1768455496.0152018'] latency=0.760ms
+2026-01-15 14:38:16,025 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-77', b'1768455496.0256135']
+2026-01-15 14:38:16,026 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-77', b'1768455496.0256135'] latency=0.526ms
+2026-01-15 14:38:16,026 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-77', b'1768455496.0256135'] latency=0.633ms
+2026-01-15 14:38:16,036 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-78', b'1768455496.0360558']
+2026-01-15 14:38:16,036 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-78', b'1768455496.0360558'] latency=0.686ms
+2026-01-15 14:38:16,036 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-78', b'1768455496.0360558'] latency=0.798ms
+2026-01-15 14:38:16,046 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-79', b'1768455496.0466871']
+2026-01-15 14:38:16,047 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-79', b'1768455496.0466871'] latency=0.966ms
+2026-01-15 14:38:16,047 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-79', b'1768455496.0466871'] latency=1.121ms
+2026-01-15 14:38:16,057 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-80', b'1768455496.0575106']
+2026-01-15 14:38:16,058 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-80', b'1768455496.0575106'] latency=0.721ms
+2026-01-15 14:38:16,058 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-80', b'1768455496.0575106'] latency=0.849ms
+2026-01-15 14:38:16,068 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-81', b'1768455496.068152']
+2026-01-15 14:38:16,069 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-81', b'1768455496.068152'] latency=1.006ms
+2026-01-15 14:38:16,069 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-81', b'1768455496.068152'] latency=1.102ms
+2026-01-15 14:38:16,079 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-82', b'1768455496.0790215']
+2026-01-15 14:38:16,080 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-82', b'1768455496.0790215'] latency=1.240ms
+2026-01-15 14:38:16,080 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-82', b'1768455496.0790215'] latency=1.407ms
+2026-01-15 14:38:16,090 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-83', b'1768455496.0900757']
+2026-01-15 14:38:16,090 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-83', b'1768455496.0900757'] latency=0.687ms
+2026-01-15 14:38:16,090 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-83', b'1768455496.0900757'] latency=0.807ms
+2026-01-15 14:38:16,100 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-84', b'1768455496.1007094']
+2026-01-15 14:38:16,101 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-84', b'1768455496.1007094'] latency=0.720ms
+2026-01-15 14:38:16,101 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-84', b'1768455496.1007094'] latency=0.831ms
+2026-01-15 14:38:16,111 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-85', b'1768455496.1114204']
+2026-01-15 14:38:16,112 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-85', b'1768455496.1114204'] latency=0.923ms
+2026-01-15 14:38:16,112 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-85', b'1768455496.1114204'] latency=1.066ms
+2026-01-15 14:38:16,122 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-86', b'1768455496.1221693']
+2026-01-15 14:38:16,122 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-86', b'1768455496.1221693'] latency=0.774ms
+2026-01-15 14:38:16,123 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-86', b'1768455496.1221693'] latency=0.910ms
+2026-01-15 14:38:16,132 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-87', b'1768455496.1328497']
+2026-01-15 14:38:16,133 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-87', b'1768455496.1328497'] latency=0.745ms
+2026-01-15 14:38:16,133 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-87', b'1768455496.1328497'] latency=0.867ms
+2026-01-15 14:38:16,143 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-88', b'1768455496.1435394']
+2026-01-15 14:38:16,144 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-88', b'1768455496.1435394'] latency=0.589ms
+2026-01-15 14:38:16,144 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-88', b'1768455496.1435394'] latency=0.704ms
+2026-01-15 14:38:16,154 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-89', b'1768455496.1539414']
+2026-01-15 14:38:16,154 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-89', b'1768455496.1539414'] latency=0.735ms
+2026-01-15 14:38:16,154 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-89', b'1768455496.1539414'] latency=0.832ms
+2026-01-15 14:38:16,164 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-90', b'1768455496.1643538']
+2026-01-15 14:38:16,164 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-90', b'1768455496.1643538'] latency=0.557ms
+2026-01-15 14:38:16,165 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-90', b'1768455496.1643538'] latency=0.678ms
+2026-01-15 14:38:16,174 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-91', b'1768455496.174792']
+2026-01-15 14:38:16,175 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-91', b'1768455496.174792'] latency=0.575ms
+2026-01-15 14:38:16,175 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-91', b'1768455496.174792'] latency=0.669ms
+2026-01-15 14:38:16,185 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-92', b'1768455496.1852458']
+2026-01-15 14:38:16,185 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-92', b'1768455496.1852458'] latency=0.592ms
+2026-01-15 14:38:16,185 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-92', b'1768455496.1852458'] latency=0.713ms
+2026-01-15 14:38:16,195 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-93', b'1768455496.195667']
+2026-01-15 14:38:16,196 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-93', b'1768455496.195667'] latency=0.536ms
+2026-01-15 14:38:16,196 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-93', b'1768455496.195667'] latency=0.644ms
+2026-01-15 14:38:16,206 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-94', b'1768455496.206117']
+2026-01-15 14:38:16,206 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-94', b'1768455496.206117'] latency=0.520ms
+2026-01-15 14:38:16,206 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-94', b'1768455496.206117'] latency=0.627ms
+2026-01-15 14:38:16,216 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-95', b'1768455496.2165275']
+2026-01-15 14:38:16,217 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-95', b'1768455496.2165275'] latency=0.522ms
+2026-01-15 14:38:16,217 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-95', b'1768455496.2165275'] latency=0.609ms
+2026-01-15 14:38:16,226 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-96', b'1768455496.2268698']
+2026-01-15 14:38:16,227 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-96', b'1768455496.2268698'] latency=0.526ms
+2026-01-15 14:38:16,227 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-96', b'1768455496.2268698'] latency=0.686ms
+2026-01-15 14:38:16,237 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-97', b'1768455496.2373521']
+2026-01-15 14:38:16,238 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-97', b'1768455496.2373521'] latency=0.779ms
+2026-01-15 14:38:16,238 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-97', b'1768455496.2373521'] latency=0.922ms
+2026-01-15 14:38:16,248 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-98', b'1768455496.2480667']
+2026-01-15 14:38:16,249 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-98', b'1768455496.2480667'] latency=0.933ms
+2026-01-15 14:38:16,249 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-98', b'1768455496.2480667'] latency=1.039ms
+2026-01-15 14:38:16,258 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-99', b'1768455496.258785']
+2026-01-15 14:38:16,259 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-99', b'1768455496.258785'] latency=0.772ms
+2026-01-15 14:38:16,259 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-99', b'1768455496.258785'] latency=0.931ms
+2026-01-15 14:38:16,269 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-100', b'1768455496.269432']
+2026-01-15 14:38:16,270 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-100', b'1768455496.269432'] latency=0.772ms
+2026-01-15 14:38:16,270 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-100', b'1768455496.269432'] latency=0.903ms
+2026-01-15 14:38:16,280 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-101', b'1768455496.2801626']
+2026-01-15 14:38:16,281 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-101', b'1768455496.2801626'] latency=1.031ms
+2026-01-15 14:38:16,281 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-101', b'1768455496.2801626'] latency=1.153ms
+2026-01-15 14:38:16,291 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-102', b'1768455496.2911153']
+2026-01-15 14:38:16,292 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-102', b'1768455496.2911153'] latency=0.845ms
+2026-01-15 14:38:16,292 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-102', b'1768455496.2911153'] latency=1.040ms
+2026-01-15 14:38:16,301 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-103', b'1768455496.3018506']
+2026-01-15 14:38:16,302 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-103', b'1768455496.3018506'] latency=1.040ms
+2026-01-15 14:38:16,303 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-103', b'1768455496.3018506'] latency=1.156ms
+2026-01-15 14:38:16,312 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-104', b'1768455496.3125927']
+2026-01-15 14:38:16,313 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-104', b'1768455496.3125927'] latency=1.294ms
+2026-01-15 14:38:16,314 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-104', b'1768455496.3125927'] latency=1.427ms
+2026-01-15 14:38:16,324 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-105', b'1768455496.3242297']
+2026-01-15 14:38:16,324 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-105', b'1768455496.3242297'] latency=0.738ms
+2026-01-15 14:38:16,325 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-105', b'1768455496.3242297'] latency=0.837ms
+2026-01-15 14:38:16,335 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-106', b'1768455496.3348987']
+2026-01-15 14:38:16,335 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-106', b'1768455496.3348987'] latency=0.810ms
+2026-01-15 14:38:16,335 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-106', b'1768455496.3348987'] latency=0.939ms
+2026-01-15 14:38:16,345 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-107', b'1768455496.3455791']
+2026-01-15 14:38:16,346 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-107', b'1768455496.3455791'] latency=0.721ms
+2026-01-15 14:38:16,346 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-107', b'1768455496.3455791'] latency=0.826ms
+2026-01-15 14:38:16,356 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-108', b'1768455496.3561523']
+2026-01-15 14:38:16,356 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-108', b'1768455496.3561523'] latency=0.496ms
+2026-01-15 14:38:16,356 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-108', b'1768455496.3561523'] latency=0.610ms
+2026-01-15 14:38:16,366 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-109', b'1768455496.366552']
+2026-01-15 14:38:16,367 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-109', b'1768455496.366552'] latency=0.590ms
+2026-01-15 14:38:16,367 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-109', b'1768455496.366552'] latency=0.713ms
+2026-01-15 14:38:16,377 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-110', b'1768455496.376957']
+2026-01-15 14:38:16,377 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-110', b'1768455496.376957'] latency=0.516ms
+2026-01-15 14:38:16,377 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-110', b'1768455496.376957'] latency=0.640ms
+2026-01-15 14:38:16,387 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-111', b'1768455496.3873622']
+2026-01-15 14:38:16,387 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-111', b'1768455496.3873622'] latency=0.591ms
+2026-01-15 14:38:16,388 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-111', b'1768455496.3873622'] latency=0.712ms
+2026-01-15 14:38:16,397 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-112', b'1768455496.3978062']
+2026-01-15 14:38:16,398 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-112', b'1768455496.3978062'] latency=0.528ms
+2026-01-15 14:38:16,398 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-112', b'1768455496.3978062'] latency=0.660ms
+2026-01-15 14:38:16,408 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-113', b'1768455496.4082503']
+2026-01-15 14:38:16,409 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-113', b'1768455496.4082503'] latency=0.791ms
+2026-01-15 14:38:16,409 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-113', b'1768455496.4082503'] latency=0.916ms
+2026-01-15 14:38:16,419 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-114', b'1768455496.418935']
+2026-01-15 14:38:16,419 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-114', b'1768455496.418935'] latency=0.782ms
+2026-01-15 14:38:16,419 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-114', b'1768455496.418935'] latency=0.898ms
+2026-01-15 14:38:16,429 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-115', b'1768455496.42963']
+2026-01-15 14:38:16,430 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-115', b'1768455496.42963'] latency=0.569ms
+2026-01-15 14:38:16,430 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-115', b'1768455496.42963'] latency=0.684ms
+2026-01-15 14:38:16,440 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-116', b'1768455496.440113']
+2026-01-15 14:38:16,440 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-116', b'1768455496.440113'] latency=0.548ms
+2026-01-15 14:38:16,440 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-116', b'1768455496.440113'] latency=0.661ms
+2026-01-15 14:38:16,450 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-117', b'1768455496.4505806']
+2026-01-15 14:38:16,451 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-117', b'1768455496.4505806'] latency=0.645ms
+2026-01-15 14:38:16,451 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-117', b'1768455496.4505806'] latency=0.755ms
+2026-01-15 14:38:16,461 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-118', b'1768455496.461281']
+2026-01-15 14:38:16,462 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-118', b'1768455496.461281'] latency=1.091ms
+2026-01-15 14:38:16,462 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-118', b'1768455496.461281'] latency=1.216ms
+2026-01-15 14:38:16,472 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-119', b'1768455496.472124']
+2026-01-15 14:38:16,472 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-119', b'1768455496.472124'] latency=0.687ms
+2026-01-15 14:38:16,472 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-119', b'1768455496.472124'] latency=0.815ms
+2026-01-15 14:38:16,482 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-120', b'1768455496.482761']
+2026-01-15 14:38:16,483 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-120', b'1768455496.482761'] latency=0.901ms
+2026-01-15 14:38:16,483 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-120', b'1768455496.482761'] latency=1.028ms
+2026-01-15 14:38:16,493 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-121', b'1768455496.493498']
+2026-01-15 14:38:16,494 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-121', b'1768455496.493498'] latency=0.980ms
+2026-01-15 14:38:16,494 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-121', b'1768455496.493498'] latency=1.106ms
+2026-01-15 14:38:16,504 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-122', b'1768455496.50415']
+2026-01-15 14:38:16,504 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-122', b'1768455496.50415'] latency=0.777ms
+2026-01-15 14:38:16,505 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-122', b'1768455496.50415'] latency=0.894ms
+2026-01-15 14:38:16,515 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-123', b'1768455496.514904']
+2026-01-15 14:38:16,516 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-123', b'1768455496.514904'] latency=1.356ms
+2026-01-15 14:38:16,516 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-123', b'1768455496.514904'] latency=1.475ms
+2026-01-15 14:38:16,526 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-124', b'1768455496.5261335']
+2026-01-15 14:38:16,526 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-124', b'1768455496.5261335'] latency=0.770ms
+2026-01-15 14:38:16,527 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-124', b'1768455496.5261335'] latency=0.885ms
+2026-01-15 14:38:16,537 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-125', b'1768455496.5368497']
+2026-01-15 14:38:16,538 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-125', b'1768455496.5368497'] latency=1.798ms
+2026-01-15 14:38:16,538 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-125', b'1768455496.5368497'] latency=1.908ms
+2026-01-15 14:38:16,548 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-126', b'1768455496.5486748']
+2026-01-15 14:38:16,549 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-126', b'1768455496.5486748'] latency=0.781ms
+2026-01-15 14:38:16,549 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-126', b'1768455496.5486748'] latency=0.898ms
+2026-01-15 14:38:16,559 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-127', b'1768455496.5593383']
+2026-01-15 14:38:16,559 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-127', b'1768455496.5593383'] latency=0.533ms
+2026-01-15 14:38:16,559 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-127', b'1768455496.5593383'] latency=0.635ms
+2026-01-15 14:38:16,569 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-128', b'1768455496.5697577']
+2026-01-15 14:38:16,570 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-128', b'1768455496.5697577'] latency=0.744ms
+2026-01-15 14:38:16,570 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-128', b'1768455496.5697577'] latency=0.885ms
+2026-01-15 14:38:16,580 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-129', b'1768455496.5803137']
+2026-01-15 14:38:16,581 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-129', b'1768455496.5803137'] latency=0.872ms
+2026-01-15 14:38:16,581 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-129', b'1768455496.5803137'] latency=0.988ms
+2026-01-15 14:38:16,591 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-130', b'1768455496.5911355']
+2026-01-15 14:38:16,591 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-130', b'1768455496.5911355'] latency=0.782ms
+2026-01-15 14:38:16,592 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-130', b'1768455496.5911355'] latency=0.893ms
+2026-01-15 14:38:16,601 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-131', b'1768455496.601786']
+2026-01-15 14:38:16,602 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-131', b'1768455496.601786'] latency=0.593ms
+2026-01-15 14:38:16,602 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-131', b'1768455496.601786'] latency=0.696ms
+2026-01-15 14:38:16,612 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-132', b'1768455496.6122363']
+2026-01-15 14:38:16,612 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-132', b'1768455496.6122363'] latency=0.587ms
+2026-01-15 14:38:16,612 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-132', b'1768455496.6122363'] latency=0.707ms
+2026-01-15 14:38:16,622 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-133', b'1768455496.6226285']
+2026-01-15 14:38:16,623 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-133', b'1768455496.6226285'] latency=0.584ms
+2026-01-15 14:38:16,623 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-133', b'1768455496.6226285'] latency=0.709ms
+2026-01-15 14:38:16,633 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-134', b'1768455496.633']
+2026-01-15 14:38:16,633 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-134', b'1768455496.633'] latency=0.596ms
+2026-01-15 14:38:16,633 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-134', b'1768455496.633'] latency=0.723ms
+2026-01-15 14:38:16,643 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-135', b'1768455496.6434448']
+2026-01-15 14:38:16,644 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-135', b'1768455496.6434448'] latency=0.664ms
+2026-01-15 14:38:16,644 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-135', b'1768455496.6434448'] latency=0.765ms
+2026-01-15 14:38:16,654 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-136', b'1768455496.6540055']
+2026-01-15 14:38:16,654 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-136', b'1768455496.6540055'] latency=0.964ms
+2026-01-15 14:38:16,655 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-136', b'1768455496.6540055'] latency=1.072ms
+2026-01-15 14:38:16,665 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-137', b'1768455496.6647558']
+2026-01-15 14:38:16,666 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-137', b'1768455496.6647558'] latency=1.263ms
+2026-01-15 14:38:16,666 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-137', b'1768455496.6647558'] latency=1.369ms
+2026-01-15 14:38:16,676 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-138', b'1768455496.6759295']
+2026-01-15 14:38:16,676 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-138', b'1768455496.6759295'] latency=0.834ms
+2026-01-15 14:38:16,676 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-138', b'1768455496.6759295'] latency=0.936ms
+2026-01-15 14:38:16,686 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-139', b'1768455496.6865807']
+2026-01-15 14:38:16,687 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-139', b'1768455496.6865807'] latency=0.742ms
+2026-01-15 14:38:16,687 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-139', b'1768455496.6865807'] latency=0.867ms
+2026-01-15 14:38:16,697 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-140', b'1768455496.6972878']
+2026-01-15 14:38:16,698 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-140', b'1768455496.6972878'] latency=0.862ms
+2026-01-15 14:38:16,698 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-140', b'1768455496.6972878'] latency=1.014ms
+2026-01-15 14:38:16,708 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-141', b'1768455496.708007']
+2026-01-15 14:38:16,708 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-141', b'1768455496.708007'] latency=0.809ms
+2026-01-15 14:38:16,708 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-141', b'1768455496.708007'] latency=0.924ms
+2026-01-15 14:38:16,718 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-142', b'1768455496.7186737']
+2026-01-15 14:38:16,719 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-142', b'1768455496.7186737'] latency=0.727ms
+2026-01-15 14:38:16,719 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-142', b'1768455496.7186737'] latency=0.884ms
+2026-01-15 14:38:16,729 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-143', b'1768455496.7293324']
+2026-01-15 14:38:16,730 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-143', b'1768455496.7293324'] latency=0.767ms
+2026-01-15 14:38:16,730 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-143', b'1768455496.7293324'] latency=0.912ms
+2026-01-15 14:38:16,740 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-144', b'1768455496.740006']
+2026-01-15 14:38:16,740 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-144', b'1768455496.740006'] latency=0.693ms
+2026-01-15 14:38:16,740 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-144', b'1768455496.740006'] latency=0.805ms
+2026-01-15 14:38:16,750 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-145', b'1768455496.7506573']
+2026-01-15 14:38:16,751 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-145', b'1768455496.7506573'] latency=0.786ms
+2026-01-15 14:38:16,751 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-145', b'1768455496.7506573'] latency=0.960ms
+2026-01-15 14:38:16,761 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-146', b'1768455496.7613761']
+2026-01-15 14:38:16,762 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-146', b'1768455496.7613761'] latency=0.773ms
+2026-01-15 14:38:16,762 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-146', b'1768455496.7613761'] latency=0.904ms
+2026-01-15 14:38:16,772 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-147', b'1768455496.7720776']
+2026-01-15 14:38:16,772 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-147', b'1768455496.7720776'] latency=0.556ms
+2026-01-15 14:38:16,772 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-147', b'1768455496.7720776'] latency=0.697ms
+2026-01-15 14:38:16,782 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-148', b'1768455496.7824936']
+2026-01-15 14:38:16,783 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-148', b'1768455496.7824936'] latency=0.590ms
+2026-01-15 14:38:16,783 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-148', b'1768455496.7824936'] latency=0.718ms
+2026-01-15 14:38:16,792 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-149', b'1768455496.792943']
+2026-01-15 14:38:16,793 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-149', b'1768455496.792943'] latency=0.520ms
+2026-01-15 14:38:16,793 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-149', b'1768455496.792943'] latency=0.667ms
+2026-01-15 14:38:16,803 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-150', b'1768455496.8033595']
+2026-01-15 14:38:16,804 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-150', b'1768455496.8033595'] latency=0.639ms
+2026-01-15 14:38:16,804 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-150', b'1768455496.8033595'] latency=0.767ms
+2026-01-15 14:38:16,813 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-151', b'1768455496.8137467']
+2026-01-15 14:38:16,814 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-151', b'1768455496.8137467'] latency=0.595ms
+2026-01-15 14:38:16,814 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-151', b'1768455496.8137467'] latency=0.682ms
+2026-01-15 14:38:16,824 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-152', b'1768455496.8241034']
+2026-01-15 14:38:16,824 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-152', b'1768455496.8241034'] latency=0.489ms
+2026-01-15 14:38:16,824 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-152', b'1768455496.8241034'] latency=0.593ms
+2026-01-15 14:38:16,834 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-153', b'1768455496.8345048']
+2026-01-15 14:38:16,835 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-153', b'1768455496.8345048'] latency=0.587ms
+2026-01-15 14:38:16,835 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-153', b'1768455496.8345048'] latency=0.707ms
+2026-01-15 14:38:16,844 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-154', b'1768455496.8448756']
+2026-01-15 14:38:16,845 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-154', b'1768455496.8448756'] latency=0.550ms
+2026-01-15 14:38:16,845 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-154', b'1768455496.8448756'] latency=0.691ms
+2026-01-15 14:38:16,855 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-155', b'1768455496.8552947']
+2026-01-15 14:38:16,855 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-155', b'1768455496.8552947'] latency=0.627ms
+2026-01-15 14:38:16,856 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-155', b'1768455496.8552947'] latency=0.739ms
+2026-01-15 14:38:16,865 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-156', b'1768455496.865846']
+2026-01-15 14:38:16,866 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-156', b'1768455496.865846'] latency=0.649ms
+2026-01-15 14:38:16,866 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-156', b'1768455496.865846'] latency=0.759ms
+2026-01-15 14:38:16,876 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-157', b'1768455496.8765304']
+2026-01-15 14:38:16,877 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-157', b'1768455496.8765304'] latency=0.834ms
+2026-01-15 14:38:16,877 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-157', b'1768455496.8765304'] latency=1.007ms
+2026-01-15 14:38:16,887 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-158', b'1768455496.887294']
+2026-01-15 14:38:16,888 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-158', b'1768455496.887294'] latency=0.777ms
+2026-01-15 14:38:16,888 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-158', b'1768455496.887294'] latency=0.911ms
+2026-01-15 14:38:16,898 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-159', b'1768455496.897976']
+2026-01-15 14:38:16,898 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-159', b'1768455496.897976'] latency=0.787ms
+2026-01-15 14:38:16,898 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-159', b'1768455496.897976'] latency=0.933ms
+2026-01-15 14:38:16,908 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-160', b'1768455496.9086862']
+2026-01-15 14:38:16,909 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-160', b'1768455496.9086862'] latency=0.709ms
+2026-01-15 14:38:16,909 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-160', b'1768455496.9086862'] latency=0.848ms
+2026-01-15 14:38:16,919 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-161', b'1768455496.9193342']
+2026-01-15 14:38:16,920 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-161', b'1768455496.9193342'] latency=0.752ms
+2026-01-15 14:38:16,920 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-161', b'1768455496.9193342'] latency=0.896ms
+2026-01-15 14:38:16,930 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-162', b'1768455496.930093']
+2026-01-15 14:38:16,931 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-162', b'1768455496.930093'] latency=1.677ms
+2026-01-15 14:38:16,931 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-162', b'1768455496.930093'] latency=1.815ms
+2026-01-15 14:38:16,941 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-163', b'1768455496.9418218']
+2026-01-15 14:38:16,942 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-163', b'1768455496.9418218'] latency=0.700ms
+2026-01-15 14:38:16,942 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-163', b'1768455496.9418218'] latency=0.832ms
+2026-01-15 14:38:16,952 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-164', b'1768455496.9524496']
+2026-01-15 14:38:16,953 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-164', b'1768455496.9524496'] latency=0.736ms
+2026-01-15 14:38:16,953 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-164', b'1768455496.9524496'] latency=0.899ms
+2026-01-15 14:38:16,963 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-165', b'1768455496.9631557']
+2026-01-15 14:38:16,964 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-165', b'1768455496.9631557'] latency=1.039ms
+2026-01-15 14:38:16,964 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-165', b'1768455496.9631557'] latency=1.192ms
+2026-01-15 14:38:16,973 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-166', b'1768455496.973878']
+2026-01-15 14:38:16,974 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-166', b'1768455496.973878'] latency=0.676ms
+2026-01-15 14:38:16,974 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-166', b'1768455496.973878'] latency=0.783ms
+2026-01-15 14:38:16,984 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-167', b'1768455496.984382']
+2026-01-15 14:38:16,985 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-167', b'1768455496.984382'] latency=0.699ms
+2026-01-15 14:38:16,985 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-167', b'1768455496.984382'] latency=0.835ms
+2026-01-15 14:38:16,994 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-168', b'1768455496.9949036']
+2026-01-15 14:38:16,995 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-168', b'1768455496.9949036'] latency=0.774ms
+2026-01-15 14:38:16,995 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-168', b'1768455496.9949036'] latency=0.927ms
+2026-01-15 14:38:17,005 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-169', b'1768455497.0054333']
+2026-01-15 14:38:17,005 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-169', b'1768455497.0054333'] latency=0.523ms
+2026-01-15 14:38:17,006 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-169', b'1768455497.0054333'] latency=0.663ms
+2026-01-15 14:38:17,015 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-170', b'1768455497.0158265']
+2026-01-15 14:38:17,016 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-170', b'1768455497.0158265'] latency=0.571ms
+2026-01-15 14:38:17,016 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-170', b'1768455497.0158265'] latency=0.675ms
+2026-01-15 14:38:17,026 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-171', b'1768455497.0262341']
+2026-01-15 14:38:17,026 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-171', b'1768455497.0262341'] latency=0.517ms
+2026-01-15 14:38:17,026 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-171', b'1768455497.0262341'] latency=0.634ms
+2026-01-15 14:38:17,036 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-172', b'1768455497.0366712']
+2026-01-15 14:38:17,037 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-172', b'1768455497.0366712'] latency=0.504ms
+2026-01-15 14:38:17,037 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-172', b'1768455497.0366712'] latency=0.615ms
+2026-01-15 14:38:17,047 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-173', b'1768455497.0470731']
+2026-01-15 14:38:17,047 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-173', b'1768455497.0470731'] latency=0.536ms
+2026-01-15 14:38:17,047 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-173', b'1768455497.0470731'] latency=0.641ms
+2026-01-15 14:38:17,057 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-174', b'1768455497.0574954']
+2026-01-15 14:38:17,058 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-174', b'1768455497.0574954'] latency=0.626ms
+2026-01-15 14:38:17,058 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-174', b'1768455497.0574954'] latency=0.735ms
+2026-01-15 14:38:17,067 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-175', b'1768455497.067884']
+2026-01-15 14:38:17,068 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-175', b'1768455497.067884'] latency=0.530ms
+2026-01-15 14:38:17,068 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-175', b'1768455497.067884'] latency=0.636ms
+2026-01-15 14:38:17,079 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-176', b'1768455497.0785823']
+2026-01-15 14:38:17,080 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-176', b'1768455497.0785823'] latency=1.532ms
+2026-01-15 14:38:17,080 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-176', b'1768455497.0785823'] latency=1.692ms
+2026-01-15 14:38:17,090 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-177', b'1768455497.0899382']
+2026-01-15 14:38:17,090 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-177', b'1768455497.0899382'] latency=0.851ms
+2026-01-15 14:38:17,090 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-177', b'1768455497.0899382'] latency=0.980ms
+2026-01-15 14:38:17,100 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-178', b'1768455497.10065']
+2026-01-15 14:38:17,101 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-178', b'1768455497.10065'] latency=0.664ms
+2026-01-15 14:38:17,101 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-178', b'1768455497.10065'] latency=0.773ms
+2026-01-15 14:38:17,111 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-179', b'1768455497.1113014']
+2026-01-15 14:38:17,112 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-179', b'1768455497.1113014'] latency=0.941ms
+2026-01-15 14:38:17,112 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-179', b'1768455497.1113014'] latency=1.085ms
+2026-01-15 14:38:17,122 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-180', b'1768455497.1221776']
+2026-01-15 14:38:17,123 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-180', b'1768455497.1221776'] latency=0.814ms
+2026-01-15 14:38:17,123 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-180', b'1768455497.1221776'] latency=0.934ms
+2026-01-15 14:38:17,132 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-181', b'1768455497.1328409']
+2026-01-15 14:38:17,133 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-181', b'1768455497.1328409'] latency=0.765ms
+2026-01-15 14:38:17,133 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-181', b'1768455497.1328409'] latency=0.916ms
+2026-01-15 14:38:17,143 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-182', b'1768455497.1435578']
+2026-01-15 14:38:17,144 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-182', b'1768455497.1435578'] latency=0.849ms
+2026-01-15 14:38:17,144 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-182', b'1768455497.1435578'] latency=1.040ms
+2026-01-15 14:38:17,154 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-183', b'1768455497.1543143']
+2026-01-15 14:38:17,155 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-183', b'1768455497.1543143'] latency=1.230ms
+2026-01-15 14:38:17,155 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-183', b'1768455497.1543143'] latency=1.379ms
+2026-01-15 14:38:17,165 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-184', b'1768455497.16533']
+2026-01-15 14:38:17,166 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-184', b'1768455497.16533'] latency=0.709ms
+2026-01-15 14:38:17,166 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-184', b'1768455497.16533'] latency=0.833ms
+2026-01-15 14:38:17,176 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-185', b'1768455497.1759932']
+2026-01-15 14:38:17,176 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-185', b'1768455497.1759932'] latency=0.770ms
+2026-01-15 14:38:17,176 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-185', b'1768455497.1759932'] latency=0.861ms
+2026-01-15 14:38:17,186 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-186', b'1768455497.1866004']
+2026-01-15 14:38:17,187 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-186', b'1768455497.1866004'] latency=0.695ms
+2026-01-15 14:38:17,187 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-186', b'1768455497.1866004'] latency=0.783ms
+2026-01-15 14:38:17,197 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-187', b'1768455497.197094']
+2026-01-15 14:38:17,197 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-187', b'1768455497.197094'] latency=0.699ms
+2026-01-15 14:38:17,197 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-187', b'1768455497.197094'] latency=0.807ms
+2026-01-15 14:38:17,207 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-188', b'1768455497.2076204']
+2026-01-15 14:38:17,208 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-188', b'1768455497.2076204'] latency=0.514ms
+2026-01-15 14:38:17,208 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-188', b'1768455497.2076204'] latency=0.626ms
+2026-01-15 14:38:17,218 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-189', b'1768455497.2180128']
+2026-01-15 14:38:17,218 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-189', b'1768455497.2180128'] latency=0.579ms
+2026-01-15 14:38:17,218 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-189', b'1768455497.2180128'] latency=0.706ms
+2026-01-15 14:38:17,228 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-190', b'1768455497.228409']
+2026-01-15 14:38:17,228 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-190', b'1768455497.228409'] latency=0.500ms
+2026-01-15 14:38:17,229 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-190', b'1768455497.228409'] latency=0.618ms
+2026-01-15 14:38:17,238 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-191', b'1768455497.2387984']
+2026-01-15 14:38:17,239 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-191', b'1768455497.2387984'] latency=0.530ms
+2026-01-15 14:38:17,239 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-191', b'1768455497.2387984'] latency=0.667ms
+2026-01-15 14:38:17,249 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-192', b'1768455497.2491918']
+2026-01-15 14:38:17,249 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-192', b'1768455497.2491918'] latency=0.531ms
+2026-01-15 14:38:17,249 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-192', b'1768455497.2491918'] latency=0.647ms
+2026-01-15 14:38:17,259 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-193', b'1768455497.259605']
+2026-01-15 14:38:17,260 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-193', b'1768455497.259605'] latency=0.748ms
+2026-01-15 14:38:17,260 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-193', b'1768455497.259605'] latency=0.853ms
+2026-01-15 14:38:17,270 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-194', b'1768455497.2701018']
+2026-01-15 14:38:17,270 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-194', b'1768455497.2701018'] latency=0.605ms
+2026-01-15 14:38:17,270 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-194', b'1768455497.2701018'] latency=0.723ms
+2026-01-15 14:38:17,280 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-195', b'1768455497.280564']
+2026-01-15 14:38:17,281 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-195', b'1768455497.280564'] latency=0.747ms
+2026-01-15 14:38:17,281 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-195', b'1768455497.280564'] latency=0.928ms
+2026-01-15 14:38:17,291 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-196', b'1768455497.2912903']
+2026-01-15 14:38:17,292 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-196', b'1768455497.2912903'] latency=0.950ms
+2026-01-15 14:38:17,292 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-196', b'1768455497.2912903'] latency=1.094ms
+2026-01-15 14:38:17,302 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-197', b'1768455497.302068']
+2026-01-15 14:38:17,302 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-197', b'1768455497.302068'] latency=0.821ms
+2026-01-15 14:38:17,303 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-197', b'1768455497.302068'] latency=1.003ms
+2026-01-15 14:38:17,312 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-198', b'1768455497.312753']
+2026-01-15 14:38:17,313 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-198', b'1768455497.312753'] latency=0.782ms
+2026-01-15 14:38:17,313 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-198', b'1768455497.312753'] latency=0.916ms
+2026-01-15 14:38:17,323 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'comp_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-199', b'1768455497.323473']
+2026-01-15 14:38:17,324 Down-Down0 INFO Downstream Down0 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-199', b'1768455497.323473'] latency=0.798ms
+2026-01-15 14:38:17,324 Down-Down1 INFO Downstream Down1 received: [b'comp_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-199', b'1768455497.323473'] latency=0.927ms
+2026-01-15 14:38:17,334 Up-TesterUp_1 INFO Up-TesterUp_1 terminated.
+2026-01-15 14:38:19,038 Down-Down1 INFO Down-Down1 terminated.
+2026-01-15 14:38:19,038 Down-Down0 INFO Down-Down0 terminated.
+2026-01-15 14:38:19,208 MainThread INFO 
+==== Performance Statistics Report ====
+2026-01-15 14:38:19,208 MainThread INFO  TesterUp_1->Down0:
+2026-01-15 14:38:19,209 MainThread INFO   Data 0: Latency=1.432ms Count=1
+2026-01-15 14:38:19,209 MainThread INFO   Data 1: Latency=0.860ms Count=1
+2026-01-15 14:38:19,209 MainThread INFO   Data 2: Latency=0.539ms Count=1
+2026-01-15 14:38:19,209 MainThread INFO   Data 3: Latency=0.587ms Count=1
+2026-01-15 14:38:19,210 MainThread INFO   Data 4: Latency=1.207ms Count=1
+2026-01-15 14:38:19,210 MainThread INFO   Data 5: Latency=0.531ms Count=1
+2026-01-15 14:38:19,210 MainThread INFO   Data 6: Latency=0.685ms Count=1
+2026-01-15 14:38:19,210 MainThread INFO   Data 7: Latency=0.641ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 8: Latency=0.515ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 9: Latency=0.567ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 10: Latency=0.567ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 11: Latency=0.617ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 12: Latency=0.773ms Count=1
+2026-01-15 14:38:19,211 MainThread INFO   Data 13: Latency=0.830ms Count=1
+2026-01-15 14:38:19,212 MainThread INFO   Data 14: Latency=0.766ms Count=1
+2026-01-15 14:38:19,212 MainThread INFO   Data 15: Latency=0.671ms Count=1
+2026-01-15 14:38:19,212 MainThread INFO   Data 16: Latency=0.527ms Count=1
+2026-01-15 14:38:19,212 MainThread INFO   Data 17: Latency=0.694ms Count=1
+2026-01-15 14:38:19,212 MainThread INFO   Data 18: Latency=0.766ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 19: Latency=0.674ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 20: Latency=0.917ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 21: Latency=0.760ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 22: Latency=0.929ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 23: Latency=1.034ms Count=1
+2026-01-15 14:38:19,213 MainThread INFO   Data 24: Latency=0.947ms Count=1
+2026-01-15 14:38:19,214 MainThread INFO   Data 25: Latency=0.740ms Count=1
+2026-01-15 14:38:19,214 MainThread INFO   Data 26: Latency=0.783ms Count=1
+2026-01-15 14:38:19,214 MainThread INFO   Data 27: Latency=0.810ms Count=1
+2026-01-15 14:38:19,214 MainThread INFO   Data 28: Latency=0.773ms Count=1
+2026-01-15 14:38:19,214 MainThread INFO   Data 29: Latency=1.381ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 30: Latency=0.857ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 31: Latency=0.624ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 32: Latency=0.740ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 33: Latency=0.617ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 34: Latency=0.575ms Count=1
+2026-01-15 14:38:19,215 MainThread INFO   Data 35: Latency=0.563ms Count=1
+2026-01-15 14:38:19,216 MainThread INFO   Data 36: Latency=0.631ms Count=1
+2026-01-15 14:38:19,216 MainThread INFO   Data 37: Latency=0.684ms Count=1
+2026-01-15 14:38:19,216 MainThread INFO   Data 38: Latency=0.821ms Count=1
+2026-01-15 14:38:19,216 MainThread INFO   Data 39: Latency=0.571ms Count=1
+2026-01-15 14:38:19,216 MainThread INFO   Data 40: Latency=1.026ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 41: Latency=0.747ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 42: Latency=0.775ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 43: Latency=0.923ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 44: Latency=0.697ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 45: Latency=0.780ms Count=1
+2026-01-15 14:38:19,217 MainThread INFO   Data 46: Latency=0.821ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 47: Latency=1.182ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 48: Latency=0.881ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 49: Latency=0.794ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 50: Latency=0.720ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 51: Latency=0.725ms Count=1
+2026-01-15 14:38:19,218 MainThread INFO   Data 52: Latency=0.654ms Count=1
+2026-01-15 14:38:19,219 MainThread INFO   Data 53: Latency=0.503ms Count=1
+2026-01-15 14:38:19,219 MainThread INFO   Data 54: Latency=0.541ms Count=1
+2026-01-15 14:38:19,219 MainThread INFO   Data 55: Latency=0.566ms Count=1
+2026-01-15 14:38:19,219 MainThread INFO   Data 56: Latency=0.552ms Count=1
+2026-01-15 14:38:19,219 MainThread INFO   Data 57: Latency=0.644ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 58: Latency=0.724ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 59: Latency=0.833ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 60: Latency=0.983ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 61: Latency=0.862ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 62: Latency=0.794ms Count=1
+2026-01-15 14:38:19,220 MainThread INFO   Data 63: Latency=0.705ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 64: Latency=1.079ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 65: Latency=1.275ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 66: Latency=0.749ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 67: Latency=0.782ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 68: Latency=0.995ms Count=1
+2026-01-15 14:38:19,221 MainThread INFO   Data 69: Latency=0.710ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 70: Latency=0.743ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 71: Latency=0.917ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 72: Latency=0.865ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 73: Latency=0.593ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 74: Latency=0.584ms Count=1
+2026-01-15 14:38:19,222 MainThread INFO   Data 75: Latency=0.594ms Count=1
+2026-01-15 14:38:19,223 MainThread INFO   Data 76: Latency=0.601ms Count=1
+2026-01-15 14:38:19,223 MainThread INFO   Data 77: Latency=0.526ms Count=1
+2026-01-15 14:38:19,223 MainThread INFO   Data 78: Latency=0.686ms Count=1
+2026-01-15 14:38:19,223 MainThread INFO   Data 79: Latency=0.966ms Count=1
+2026-01-15 14:38:19,223 MainThread INFO   Data 80: Latency=0.721ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 81: Latency=1.102ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 82: Latency=1.240ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 83: Latency=0.687ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 84: Latency=0.720ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 85: Latency=0.923ms Count=1
+2026-01-15 14:38:19,224 MainThread INFO   Data 86: Latency=0.774ms Count=1
+2026-01-15 14:38:19,225 MainThread INFO   Data 87: Latency=0.745ms Count=1
+2026-01-15 14:38:19,225 MainThread INFO   Data 88: Latency=0.589ms Count=1
+2026-01-15 14:38:19,225 MainThread INFO   Data 89: Latency=0.735ms Count=1
+2026-01-15 14:38:19,225 MainThread INFO   Data 90: Latency=0.557ms Count=1
+2026-01-15 14:38:19,225 MainThread INFO   Data 91: Latency=0.575ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 92: Latency=0.592ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 93: Latency=0.536ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 94: Latency=0.520ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 95: Latency=0.522ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 96: Latency=0.526ms Count=1
+2026-01-15 14:38:19,226 MainThread INFO   Data 97: Latency=0.779ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 98: Latency=1.039ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 99: Latency=0.772ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 100: Latency=0.772ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 101: Latency=1.031ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 102: Latency=0.845ms Count=1
+2026-01-15 14:38:19,227 MainThread INFO   Data 103: Latency=1.156ms Count=1
+2026-01-15 14:38:19,228 MainThread INFO   Data 104: Latency=1.427ms Count=1
+2026-01-15 14:38:19,228 MainThread INFO   Data 105: Latency=0.837ms Count=1
+2026-01-15 14:38:19,228 MainThread INFO   Data 106: Latency=0.810ms Count=1
+2026-01-15 14:38:19,228 MainThread INFO   Data 107: Latency=0.721ms Count=1
+2026-01-15 14:38:19,228 MainThread INFO   Data 108: Latency=0.496ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 109: Latency=0.590ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 110: Latency=0.516ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 111: Latency=0.591ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 112: Latency=0.660ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 113: Latency=0.791ms Count=1
+2026-01-15 14:38:19,229 MainThread INFO   Data 114: Latency=0.782ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 115: Latency=0.569ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 116: Latency=0.548ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 117: Latency=0.645ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 118: Latency=1.091ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 119: Latency=0.687ms Count=1
+2026-01-15 14:38:19,230 MainThread INFO   Data 120: Latency=1.028ms Count=1
+2026-01-15 14:38:19,231 MainThread INFO   Data 121: Latency=0.980ms Count=1
+2026-01-15 14:38:19,231 MainThread INFO   Data 122: Latency=0.777ms Count=1
+2026-01-15 14:38:19,231 MainThread INFO   Data 123: Latency=1.356ms Count=1
+2026-01-15 14:38:19,231 MainThread INFO   Data 124: Latency=0.885ms Count=1
+2026-01-15 14:38:19,231 MainThread INFO   Data 125: Latency=1.908ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 126: Latency=0.898ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 127: Latency=0.533ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 128: Latency=0.885ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 129: Latency=0.988ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 130: Latency=0.782ms Count=1
+2026-01-15 14:38:19,232 MainThread INFO   Data 131: Latency=0.593ms Count=1
+2026-01-15 14:38:19,233 MainThread INFO   Data 132: Latency=0.587ms Count=1
+2026-01-15 14:38:19,233 MainThread INFO   Data 133: Latency=0.584ms Count=1
+2026-01-15 14:38:19,233 MainThread INFO   Data 134: Latency=0.596ms Count=1
+2026-01-15 14:38:19,233 MainThread INFO   Data 135: Latency=0.765ms Count=1
+2026-01-15 14:38:19,233 MainThread INFO   Data 136: Latency=1.072ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 137: Latency=1.263ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 138: Latency=0.936ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 139: Latency=0.742ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 140: Latency=1.014ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 141: Latency=0.924ms Count=1
+2026-01-15 14:38:19,234 MainThread INFO   Data 142: Latency=0.727ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 143: Latency=0.767ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 144: Latency=0.693ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 145: Latency=0.786ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 146: Latency=0.773ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 147: Latency=0.556ms Count=1
+2026-01-15 14:38:19,235 MainThread INFO   Data 148: Latency=0.590ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 149: Latency=0.520ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 150: Latency=0.639ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 151: Latency=0.682ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 152: Latency=0.489ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 153: Latency=0.587ms Count=1
+2026-01-15 14:38:19,236 MainThread INFO   Data 154: Latency=0.550ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 155: Latency=0.627ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 156: Latency=0.759ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 157: Latency=0.834ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 158: Latency=0.777ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 159: Latency=0.787ms Count=1
+2026-01-15 14:38:19,237 MainThread INFO   Data 160: Latency=0.709ms Count=1
+2026-01-15 14:38:19,238 MainThread INFO   Data 161: Latency=0.752ms Count=1
+2026-01-15 14:38:19,238 MainThread INFO   Data 162: Latency=1.815ms Count=1
+2026-01-15 14:38:19,238 MainThread INFO   Data 163: Latency=0.700ms Count=1
+2026-01-15 14:38:19,238 MainThread INFO   Data 164: Latency=0.736ms Count=1
+2026-01-15 14:38:19,238 MainThread INFO   Data 165: Latency=1.039ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 166: Latency=0.676ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 167: Latency=0.699ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 168: Latency=0.774ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 169: Latency=0.523ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 170: Latency=0.571ms Count=1
+2026-01-15 14:38:19,239 MainThread INFO   Data 171: Latency=0.517ms Count=1
+2026-01-15 14:38:19,240 MainThread INFO   Data 172: Latency=0.504ms Count=1
+2026-01-15 14:38:19,240 MainThread INFO   Data 173: Latency=0.641ms Count=1
+2026-01-15 14:38:19,240 MainThread INFO   Data 174: Latency=0.626ms Count=1
+2026-01-15 14:38:19,240 MainThread INFO   Data 175: Latency=0.530ms Count=1
+2026-01-15 14:38:19,240 MainThread INFO   Data 176: Latency=1.532ms Count=1
+2026-01-15 14:38:19,241 MainThread INFO   Data 177: Latency=0.851ms Count=1
+2026-01-15 14:38:19,241 MainThread INFO   Data 178: Latency=0.664ms Count=1
+2026-01-15 14:38:19,241 MainThread INFO   Data 179: Latency=0.941ms Count=1
+2026-01-15 14:38:19,241 MainThread INFO   Data 180: Latency=0.814ms Count=1
+2026-01-15 14:38:19,241 MainThread INFO   Data 181: Latency=0.916ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 182: Latency=0.849ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 183: Latency=1.379ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 184: Latency=0.709ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 185: Latency=0.770ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 186: Latency=0.783ms Count=1
+2026-01-15 14:38:19,242 MainThread INFO   Data 187: Latency=0.807ms Count=1
+2026-01-15 14:38:19,243 MainThread INFO   Data 188: Latency=0.514ms Count=1
+2026-01-15 14:38:19,243 MainThread INFO   Data 189: Latency=0.579ms Count=1
+2026-01-15 14:38:19,243 MainThread INFO   Data 190: Latency=0.500ms Count=1
+2026-01-15 14:38:19,243 MainThread INFO   Data 191: Latency=0.530ms Count=1
+2026-01-15 14:38:19,243 MainThread INFO   Data 192: Latency=0.531ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 193: Latency=0.748ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 194: Latency=0.605ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 195: Latency=0.747ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 196: Latency=1.094ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 197: Latency=0.821ms Count=1
+2026-01-15 14:38:19,244 MainThread INFO   Data 198: Latency=0.782ms Count=1
+2026-01-15 14:38:19,245 MainThread INFO   Data 199: Latency=0.798ms Count=1
+2026-01-15 14:38:19,245 MainThread INFO  TesterUp_1->Down1:
+2026-01-15 14:38:19,245 MainThread INFO   Data 0: Latency=1.564ms Count=1
+2026-01-15 14:38:19,245 MainThread INFO   Data 1: Latency=0.763ms Count=1
+2026-01-15 14:38:19,245 MainThread INFO   Data 2: Latency=0.649ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 3: Latency=0.693ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 4: Latency=1.320ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 5: Latency=0.637ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 6: Latency=0.766ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 7: Latency=0.791ms Count=1
+2026-01-15 14:38:19,246 MainThread INFO   Data 8: Latency=0.678ms Count=1
+2026-01-15 14:38:19,247 MainThread INFO   Data 9: Latency=0.675ms Count=1
+2026-01-15 14:38:19,247 MainThread INFO   Data 10: Latency=0.671ms Count=1
+2026-01-15 14:38:19,247 MainThread INFO   Data 11: Latency=0.700ms Count=1
+2026-01-15 14:38:19,247 MainThread INFO   Data 12: Latency=0.668ms Count=1
+2026-01-15 14:38:19,247 MainThread INFO   Data 13: Latency=0.950ms Count=1
+2026-01-15 14:38:19,248 MainThread INFO   Data 14: Latency=0.681ms Count=1
+2026-01-15 14:38:19,248 MainThread INFO   Data 15: Latency=0.561ms Count=1
+2026-01-15 14:38:19,248 MainThread INFO   Data 16: Latency=0.651ms Count=1
+2026-01-15 14:38:19,248 MainThread INFO   Data 17: Latency=0.602ms Count=1
+2026-01-15 14:38:19,248 MainThread INFO   Data 18: Latency=0.890ms Count=1
+2026-01-15 14:38:19,249 MainThread INFO   Data 19: Latency=0.804ms Count=1
+2026-01-15 14:38:19,249 MainThread INFO   Data 20: Latency=1.055ms Count=1
+2026-01-15 14:38:19,249 MainThread INFO   Data 21: Latency=0.895ms Count=1
+2026-01-15 14:38:19,249 MainThread INFO   Data 22: Latency=1.088ms Count=1
+2026-01-15 14:38:19,249 MainThread INFO   Data 23: Latency=0.916ms Count=1
+2026-01-15 14:38:19,250 MainThread INFO   Data 24: Latency=1.068ms Count=1
+2026-01-15 14:38:19,250 MainThread INFO   Data 25: Latency=0.867ms Count=1
+2026-01-15 14:38:19,250 MainThread INFO   Data 26: Latency=0.938ms Count=1
+2026-01-15 14:38:19,250 MainThread INFO   Data 27: Latency=0.903ms Count=1
+2026-01-15 14:38:19,250 MainThread INFO   Data 28: Latency=0.931ms Count=1
+2026-01-15 14:38:19,251 MainThread INFO   Data 29: Latency=1.240ms Count=1
+2026-01-15 14:38:19,251 MainThread INFO   Data 30: Latency=0.962ms Count=1
+2026-01-15 14:38:19,251 MainThread INFO   Data 31: Latency=0.737ms Count=1
+2026-01-15 14:38:19,251 MainThread INFO   Data 32: Latency=0.856ms Count=1
+2026-01-15 14:38:19,251 MainThread INFO   Data 33: Latency=0.748ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 34: Latency=0.745ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 35: Latency=0.678ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 36: Latency=0.750ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 37: Latency=0.808ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 38: Latency=0.552ms Count=1
+2026-01-15 14:38:19,252 MainThread INFO   Data 39: Latency=0.677ms Count=1
+2026-01-15 14:38:19,253 MainThread INFO   Data 40: Latency=1.161ms Count=1
+2026-01-15 14:38:19,253 MainThread INFO   Data 41: Latency=0.886ms Count=1
+2026-01-15 14:38:19,253 MainThread INFO   Data 42: Latency=0.911ms Count=1
+2026-01-15 14:38:19,253 MainThread INFO   Data 43: Latency=1.044ms Count=1
+2026-01-15 14:38:19,253 MainThread INFO   Data 44: Latency=0.827ms Count=1
+2026-01-15 14:38:19,254 MainThread INFO   Data 45: Latency=0.914ms Count=1
+2026-01-15 14:38:19,254 MainThread INFO   Data 46: Latency=0.957ms Count=1
+2026-01-15 14:38:19,254 MainThread INFO   Data 47: Latency=1.328ms Count=1
+2026-01-15 14:38:19,254 MainThread INFO   Data 48: Latency=1.012ms Count=1
+2026-01-15 14:38:19,254 MainThread INFO   Data 49: Latency=0.911ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 50: Latency=0.861ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 51: Latency=0.840ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 52: Latency=0.759ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 53: Latency=0.622ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 54: Latency=0.654ms Count=1
+2026-01-15 14:38:19,255 MainThread INFO   Data 55: Latency=0.696ms Count=1
+2026-01-15 14:38:19,256 MainThread INFO   Data 56: Latency=0.669ms Count=1
+2026-01-15 14:38:19,256 MainThread INFO   Data 57: Latency=0.753ms Count=1
+2026-01-15 14:38:19,256 MainThread INFO   Data 58: Latency=0.852ms Count=1
+2026-01-15 14:38:19,256 MainThread INFO   Data 59: Latency=0.954ms Count=1
+2026-01-15 14:38:19,256 MainThread INFO   Data 60: Latency=1.117ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 61: Latency=0.995ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 62: Latency=0.981ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 63: Latency=0.846ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 64: Latency=1.176ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 65: Latency=1.494ms Count=1
+2026-01-15 14:38:19,257 MainThread INFO   Data 66: Latency=0.905ms Count=1
+2026-01-15 14:38:19,258 MainThread INFO   Data 67: Latency=0.915ms Count=1
+2026-01-15 14:38:19,258 MainThread INFO   Data 68: Latency=1.108ms Count=1
+2026-01-15 14:38:19,258 MainThread INFO   Data 69: Latency=0.619ms Count=1
+2026-01-15 14:38:19,258 MainThread INFO   Data 70: Latency=0.845ms Count=1
+2026-01-15 14:38:19,258 MainThread INFO   Data 71: Latency=1.095ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 72: Latency=0.746ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 73: Latency=0.702ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 74: Latency=0.695ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 75: Latency=0.697ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 76: Latency=0.760ms Count=1
+2026-01-15 14:38:19,259 MainThread INFO   Data 77: Latency=0.633ms Count=1
+2026-01-15 14:38:19,260 MainThread INFO   Data 78: Latency=0.798ms Count=1
+2026-01-15 14:38:19,260 MainThread INFO   Data 79: Latency=1.121ms Count=1
+2026-01-15 14:38:19,260 MainThread INFO   Data 80: Latency=0.849ms Count=1
+2026-01-15 14:38:19,260 MainThread INFO   Data 81: Latency=1.006ms Count=1
+2026-01-15 14:38:19,260 MainThread INFO   Data 82: Latency=1.407ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 83: Latency=0.807ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 84: Latency=0.831ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 85: Latency=1.066ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 86: Latency=0.910ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 87: Latency=0.867ms Count=1
+2026-01-15 14:38:19,261 MainThread INFO   Data 88: Latency=0.704ms Count=1
+2026-01-15 14:38:19,262 MainThread INFO   Data 89: Latency=0.832ms Count=1
+2026-01-15 14:38:19,262 MainThread INFO   Data 90: Latency=0.678ms Count=1
+2026-01-15 14:38:19,262 MainThread INFO   Data 91: Latency=0.669ms Count=1
+2026-01-15 14:38:19,262 MainThread INFO   Data 92: Latency=0.713ms Count=1
+2026-01-15 14:38:19,263 MainThread INFO   Data 93: Latency=0.644ms Count=1
+2026-01-15 14:38:19,263 MainThread INFO   Data 94: Latency=0.627ms Count=1
+2026-01-15 14:38:19,263 MainThread INFO   Data 95: Latency=0.609ms Count=1
+2026-01-15 14:38:19,263 MainThread INFO   Data 96: Latency=0.686ms Count=1
+2026-01-15 14:38:19,263 MainThread INFO   Data 97: Latency=0.922ms Count=1
+2026-01-15 14:38:19,264 MainThread INFO   Data 98: Latency=0.933ms Count=1
+2026-01-15 14:38:19,264 MainThread INFO   Data 99: Latency=0.931ms Count=1
+2026-01-15 14:38:19,264 MainThread INFO   Data 100: Latency=0.903ms Count=1
+2026-01-15 14:38:19,264 MainThread INFO   Data 101: Latency=1.153ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 102: Latency=1.040ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 103: Latency=1.040ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 104: Latency=1.294ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 105: Latency=0.738ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 106: Latency=0.939ms Count=1
+2026-01-15 14:38:19,265 MainThread INFO   Data 107: Latency=0.826ms Count=1
+2026-01-15 14:38:19,266 MainThread INFO   Data 108: Latency=0.610ms Count=1
+2026-01-15 14:38:19,266 MainThread INFO   Data 109: Latency=0.713ms Count=1
+2026-01-15 14:38:19,266 MainThread INFO   Data 110: Latency=0.640ms Count=1
+2026-01-15 14:38:19,266 MainThread INFO   Data 111: Latency=0.712ms Count=1
+2026-01-15 14:38:19,267 MainThread INFO   Data 112: Latency=0.528ms Count=1
+2026-01-15 14:38:19,267 MainThread INFO   Data 113: Latency=0.916ms Count=1
+2026-01-15 14:38:19,267 MainThread INFO   Data 114: Latency=0.898ms Count=1
+2026-01-15 14:38:19,267 MainThread INFO   Data 115: Latency=0.684ms Count=1
+2026-01-15 14:38:19,267 MainThread INFO   Data 116: Latency=0.661ms Count=1
+2026-01-15 14:38:19,268 MainThread INFO   Data 117: Latency=0.755ms Count=1
+2026-01-15 14:38:19,268 MainThread INFO   Data 118: Latency=1.216ms Count=1
+2026-01-15 14:38:19,268 MainThread INFO   Data 119: Latency=0.815ms Count=1
+2026-01-15 14:38:19,268 MainThread INFO   Data 120: Latency=0.901ms Count=1
+2026-01-15 14:38:19,268 MainThread INFO   Data 121: Latency=1.106ms Count=1
+2026-01-15 14:38:19,269 MainThread INFO   Data 122: Latency=0.894ms Count=1
+2026-01-15 14:38:19,269 MainThread INFO   Data 123: Latency=1.475ms Count=1
+2026-01-15 14:38:19,269 MainThread INFO   Data 124: Latency=0.770ms Count=1
+2026-01-15 14:38:19,269 MainThread INFO   Data 125: Latency=1.798ms Count=1
+2026-01-15 14:38:19,269 MainThread INFO   Data 126: Latency=0.781ms Count=1
+2026-01-15 14:38:19,270 MainThread INFO   Data 127: Latency=0.635ms Count=1
+2026-01-15 14:38:19,270 MainThread INFO   Data 128: Latency=0.744ms Count=1
+2026-01-15 14:38:19,270 MainThread INFO   Data 129: Latency=0.872ms Count=1
+2026-01-15 14:38:19,270 MainThread INFO   Data 130: Latency=0.893ms Count=1
+2026-01-15 14:38:19,270 MainThread INFO   Data 131: Latency=0.696ms Count=1
+2026-01-15 14:38:19,271 MainThread INFO   Data 132: Latency=0.707ms Count=1
+2026-01-15 14:38:19,271 MainThread INFO   Data 133: Latency=0.709ms Count=1
+2026-01-15 14:38:19,271 MainThread INFO   Data 134: Latency=0.723ms Count=1
+2026-01-15 14:38:19,271 MainThread INFO   Data 135: Latency=0.664ms Count=1
+2026-01-15 14:38:19,272 MainThread INFO   Data 136: Latency=0.964ms Count=1
+2026-01-15 14:38:19,272 MainThread INFO   Data 137: Latency=1.369ms Count=1
+2026-01-15 14:38:19,272 MainThread INFO   Data 138: Latency=0.834ms Count=1
+2026-01-15 14:38:19,272 MainThread INFO   Data 139: Latency=0.867ms Count=1
+2026-01-15 14:38:19,272 MainThread INFO   Data 140: Latency=0.862ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 141: Latency=0.809ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 142: Latency=0.884ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 143: Latency=0.912ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 144: Latency=0.805ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 145: Latency=0.960ms Count=1
+2026-01-15 14:38:19,273 MainThread INFO   Data 146: Latency=0.904ms Count=1
+2026-01-15 14:38:19,274 MainThread INFO   Data 147: Latency=0.697ms Count=1
+2026-01-15 14:38:19,274 MainThread INFO   Data 148: Latency=0.718ms Count=1
+2026-01-15 14:38:19,274 MainThread INFO   Data 149: Latency=0.667ms Count=1
+2026-01-15 14:38:19,274 MainThread INFO   Data 150: Latency=0.767ms Count=1
+2026-01-15 14:38:19,274 MainThread INFO   Data 151: Latency=0.595ms Count=1
+2026-01-15 14:38:19,275 MainThread INFO   Data 152: Latency=0.593ms Count=1
+2026-01-15 14:38:19,275 MainThread INFO   Data 153: Latency=0.707ms Count=1
+2026-01-15 14:38:19,275 MainThread INFO   Data 154: Latency=0.691ms Count=1
+2026-01-15 14:38:19,275 MainThread INFO   Data 155: Latency=0.739ms Count=1
+2026-01-15 14:38:19,275 MainThread INFO   Data 156: Latency=0.649ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 157: Latency=1.007ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 158: Latency=0.911ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 159: Latency=0.933ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 160: Latency=0.848ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 161: Latency=0.896ms Count=1
+2026-01-15 14:38:19,276 MainThread INFO   Data 162: Latency=1.677ms Count=1
+2026-01-15 14:38:19,277 MainThread INFO   Data 163: Latency=0.832ms Count=1
+2026-01-15 14:38:19,277 MainThread INFO   Data 164: Latency=0.899ms Count=1
+2026-01-15 14:38:19,277 MainThread INFO   Data 165: Latency=1.192ms Count=1
+2026-01-15 14:38:19,277 MainThread INFO   Data 166: Latency=0.783ms Count=1
+2026-01-15 14:38:19,277 MainThread INFO   Data 167: Latency=0.835ms Count=1
+2026-01-15 14:38:19,278 MainThread INFO   Data 168: Latency=0.927ms Count=1
+2026-01-15 14:38:19,278 MainThread INFO   Data 169: Latency=0.663ms Count=1
+2026-01-15 14:38:19,278 MainThread INFO   Data 170: Latency=0.675ms Count=1
+2026-01-15 14:38:19,278 MainThread INFO   Data 171: Latency=0.634ms Count=1
+2026-01-15 14:38:19,278 MainThread INFO   Data 172: Latency=0.615ms Count=1
+2026-01-15 14:38:19,279 MainThread INFO   Data 173: Latency=0.536ms Count=1
+2026-01-15 14:38:19,279 MainThread INFO   Data 174: Latency=0.735ms Count=1
+2026-01-15 14:38:19,279 MainThread INFO   Data 175: Latency=0.636ms Count=1
+2026-01-15 14:38:19,279 MainThread INFO   Data 176: Latency=1.692ms Count=1
+2026-01-15 14:38:19,279 MainThread INFO   Data 177: Latency=0.980ms Count=1
+2026-01-15 14:38:19,280 MainThread INFO   Data 178: Latency=0.773ms Count=1
+2026-01-15 14:38:19,280 MainThread INFO   Data 179: Latency=1.085ms Count=1
+2026-01-15 14:38:19,280 MainThread INFO   Data 180: Latency=0.934ms Count=1
+2026-01-15 14:38:19,280 MainThread INFO   Data 181: Latency=0.765ms Count=1
+2026-01-15 14:38:19,280 MainThread INFO   Data 182: Latency=1.040ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 183: Latency=1.230ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 184: Latency=0.833ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 185: Latency=0.861ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 186: Latency=0.695ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 187: Latency=0.699ms Count=1
+2026-01-15 14:38:19,281 MainThread INFO   Data 188: Latency=0.626ms Count=1
+2026-01-15 14:38:19,282 MainThread INFO   Data 189: Latency=0.706ms Count=1
+2026-01-15 14:38:19,282 MainThread INFO   Data 190: Latency=0.618ms Count=1
+2026-01-15 14:38:19,282 MainThread INFO   Data 191: Latency=0.667ms Count=1
+2026-01-15 14:38:19,282 MainThread INFO   Data 192: Latency=0.647ms Count=1
+2026-01-15 14:38:19,282 MainThread INFO   Data 193: Latency=0.853ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 194: Latency=0.723ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 195: Latency=0.928ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 196: Latency=0.950ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 197: Latency=1.003ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 198: Latency=0.916ms Count=1
+2026-01-15 14:38:19,283 MainThread INFO   Data 199: Latency=0.927ms Count=1
+2026-01-15 14:38:19,284 MainThread INFO 
+[Packet Loss/Out-of-Order Detection]
+2026-01-15 14:38:19,284 MainThread INFO  TesterUp_1->Down0 Lost: None
+2026-01-15 14:38:19,284 MainThread INFO  TesterUp_1->Down1 Lost: None
+2026-01-15 14:38:19,284 MainThread INFO 
+------ Summary ------
+2026-01-15 14:38:19,284 MainThread INFO  Overall average latency=0.816ms
+2026-01-15 14:38:19,284 MainThread INFO  Max=1.908ms, Min=0.489ms
+2026-01-15 14:38:19,285 MainThread INFO  Total messages received=400
+2026-01-15 14:38:19,285 MainThread INFO  Total messages should be 400，actual received 400，lost 0

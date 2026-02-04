@@ -1,0 +1,18 @@
+2026-01-15 14:42:33,821 MainThread INFO Starting middleware comp_1 ...
+2026-01-15 14:42:33,822 MainThread INFO MainThread start.
+2026-01-15 14:42:34,023 InputThread INFO InputThread start.
+2026-01-15 14:42:34,024 OutputThread INFO OutputThread start.
+2026-01-15 14:42:34,024 CmdThread INFO CmdThread connect operator at tcp://127.0.0.1:6000 (id=comp_1)
+2026-01-15 14:42:34,024 MainThread INFO All threads started.
+2026-01-15 14:42:34,024 InputThread INFO [input] connect: tcp://127.0.0.1:5550
+2026-01-15 14:42:34,025 OutputThread INFO [output] bind: tcp://127.0.0.1:5556
+2026-01-15 14:42:36,430 MainThread INFO Registered downstream: Down1
+2026-01-15 14:42:36,431 MainThread INFO Registered downstream: Down0
+2026-01-15 14:42:36,431 MainThread INFO Registered downstream: Down2
+2026-01-15 14:42:36,432 MainThread INFO Registered downstream: Down3
+2026-01-15 14:42:50,318 MainThread INFO Ctrl+C. closing...
+2026-01-15 14:42:50,326 MainThread INFO MainThread stopped.
+2026-01-15 14:42:50,327 OutputThread INFO OutputThread stopped.
+2026-01-15 14:42:50,327 InputThread INFO InputThread stopped.
+2026-01-15 14:42:50,383 CmdThread INFO CmdThread stopped.
+2026-01-15 14:42:50,457 MainThread INFO Middleware stopped.

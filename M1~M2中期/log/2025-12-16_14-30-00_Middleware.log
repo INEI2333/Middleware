@@ -1,0 +1,89 @@
+2025-12-16 14:30:00,969 MainThread INFO Starting middleware mw_instance_1 ...
+2025-12-16 14:30:00,970 MainThread INFO MainThread start.
+2025-12-16 14:30:01,170 InputThread INFO InputThread start.
+2025-12-16 14:30:01,171 OutputThread INFO OutputThread start.
+2025-12-16 14:30:01,171 MainThread INFO All threads have been started.
+2025-12-16 14:30:01,171 InputThread INFO [input] connect: tcp://127.0.0.1:5550 (TesterUp_1)
+2025-12-16 14:30:01,172 OutputThread INFO [output] bind: tcp://0.0.0.0:5556
+2025-12-16 14:30:01,172 InputThread INFO [input] connect: tcp://127.0.0.1:5551 (TesterUp_2)
+2025-12-16 14:30:05,154 OutputThread INFO Message received from downstream Down1, forwarded to MainThread...
+2025-12-16 14:30:05,154 MainThread INFO Receiving message from downstream Down1 : [b'HELLO']
+2025-12-16 14:30:05,155 MainThread INFO Registered Downstream: Down1
+2025-12-16 14:30:05,156 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'HELLO_ACK']
+2025-12-16 14:30:06,161 InputThread INFO Message received from upstream TesterUp_1, forwarded to MainThread...
+2025-12-16 14:30:05,155 OutputThread INFO Message received from downstream Down4, forwarded to MainThread...
+2025-12-16 14:30:05,155 OutputThread INFO Message received from downstream Down2, forwarded to MainThread...
+2025-12-16 14:30:05,156 MainThread INFO Receiving message from downstream Down4 : [b'HELLO']
+2025-12-16 14:30:05,156 OutputThread INFO Message received from downstream Down3, forwarded to MainThread...
+2025-12-16 14:30:05,156 MainThread INFO Registered Downstream: Down4
+2025-12-16 14:30:05,156 MainThread INFO Receiving message from downstream Down2 : [b'HELLO']
+2025-12-16 14:30:05,157 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'HELLO_ACK']
+2025-12-16 14:30:05,157 MainThread INFO Registered Downstream: Down2
+2025-12-16 14:30:05,157 MainThread INFO Receiving message from downstream Down3 : [b'HELLO']
+2025-12-16 14:30:05,157 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'HELLO_ACK']
+2025-12-16 14:30:05,157 MainThread INFO Registered Downstream: Down3
+2025-12-16 14:30:05,158 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'HELLO_ACK']
+2025-12-16 14:30:06,161 MainThread INFO Receiving message from upstream TesterUp_1 : [b'REQUEST', b'TesterUp_1', b'DATA-0', b'1765863006.1604128']
+2025-12-16 14:30:06,161 InputThread INFO Message received from upstream TesterUp_2, forwarded to MainThread...
+2025-12-16 14:30:06,162 MainThread INFO Receiving message from upstream TesterUp_2 : [b'REQUEST', b'TesterUp_2', b'DATA-0', b'1765863006.1604874']
+2025-12-16 14:30:06,162 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1765863006.1604128']
+2025-12-16 14:30:06,162 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1765863006.1604128']
+2025-12-16 14:30:06,163 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1765863006.1604128']
+2025-12-16 14:30:06,163 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1765863006.1604128']
+2025-12-16 14:30:06,163 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1765863006.1604874']
+2025-12-16 14:30:06,164 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1765863006.1604874']
+2025-12-16 14:30:06,164 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1765863006.1604874']
+2025-12-16 14:30:06,164 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1765863006.1604874']
+2025-12-16 14:30:07,163 InputThread INFO Message received from upstream TesterUp_1, forwarded to MainThread...
+2025-12-16 14:30:07,163 MainThread INFO Receiving message from upstream TesterUp_1 : [b'REQUEST', b'TesterUp_1', b'DATA-1', b'1765863007.1624727']
+2025-12-16 14:30:07,164 InputThread INFO Message received from upstream TesterUp_2, forwarded to MainThread...
+2025-12-16 14:30:07,164 MainThread INFO Receiving message from upstream TesterUp_2 : [b'REQUEST', b'TesterUp_2', b'DATA-1', b'1765863007.162666']
+2025-12-16 14:30:07,164 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1765863007.1624727']
+2025-12-16 14:30:07,165 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1765863007.1624727']
+2025-12-16 14:30:07,165 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1765863007.1624727']
+2025-12-16 14:30:07,165 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1765863007.1624727']
+2025-12-16 14:30:07,166 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1765863007.162666']
+2025-12-16 14:30:07,166 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1765863007.162666']
+2025-12-16 14:30:07,166 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1765863007.162666']
+2025-12-16 14:30:07,167 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1765863007.162666']
+2025-12-16 14:30:08,165 InputThread INFO Message received from upstream TesterUp_1, forwarded to MainThread...
+2025-12-16 14:30:08,165 MainThread INFO Receiving message from upstream TesterUp_1 : [b'REQUEST', b'TesterUp_1', b'DATA-2', b'1765863008.1648607']
+2025-12-16 14:30:08,165 InputThread INFO Message received from upstream TesterUp_2, forwarded to MainThread...
+2025-12-16 14:30:08,166 MainThread INFO Receiving message from upstream TesterUp_2 : [b'REQUEST', b'TesterUp_2', b'DATA-2', b'1765863008.1651623']
+2025-12-16 14:30:08,166 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1765863008.1648607']
+2025-12-16 14:30:08,167 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1765863008.1648607']
+2025-12-16 14:30:08,167 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1765863008.1648607']
+2025-12-16 14:30:08,167 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1765863008.1648607']
+2025-12-16 14:30:08,168 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1765863008.1651623']
+2025-12-16 14:30:08,168 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1765863008.1651623']
+2025-12-16 14:30:08,168 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1765863008.1651623']
+2025-12-16 14:30:08,169 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1765863008.1651623']
+2025-12-16 14:30:09,167 InputThread INFO Message received from upstream TesterUp_1, forwarded to MainThread...
+2025-12-16 14:30:09,167 MainThread INFO Receiving message from upstream TesterUp_1 : [b'REQUEST', b'TesterUp_1', b'DATA-3', b'1765863009.166733']
+2025-12-16 14:30:09,167 InputThread INFO Message received from upstream TesterUp_2, forwarded to MainThread...
+2025-12-16 14:30:09,168 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1765863009.166733']
+2025-12-16 14:30:09,168 MainThread INFO Receiving message from upstream TesterUp_2 : [b'REQUEST', b'TesterUp_2', b'DATA-3', b'1765863009.167024']
+2025-12-16 14:30:09,168 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1765863009.166733']
+2025-12-16 14:30:09,169 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1765863009.166733']
+2025-12-16 14:30:09,169 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1765863009.166733']
+2025-12-16 14:30:09,169 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1765863009.167024']
+2025-12-16 14:30:09,170 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1765863009.167024']
+2025-12-16 14:30:09,170 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1765863009.167024']
+2025-12-16 14:30:09,170 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1765863009.167024']
+2025-12-16 14:30:10,168 InputThread INFO Message received from upstream TesterUp_1, forwarded to MainThread...
+2025-12-16 14:30:10,169 MainThread INFO Receiving message from upstream TesterUp_1 : [b'REQUEST', b'TesterUp_1', b'DATA-4', b'1765863010.168541']
+2025-12-16 14:30:10,169 InputThread INFO Message received from upstream TesterUp_2, forwarded to MainThread...
+2025-12-16 14:30:10,170 MainThread INFO Receiving message from upstream TesterUp_2 : [b'REQUEST', b'TesterUp_2', b'DATA-4', b'1765863010.1686447']
+2025-12-16 14:30:10,170 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1765863010.168541']
+2025-12-16 14:30:10,170 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1765863010.168541']
+2025-12-16 14:30:10,171 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1765863010.168541']
+2025-12-16 14:30:10,171 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1765863010.168541']
+2025-12-16 14:30:10,171 OutputThread INFO Forward message from Main thread to Downstream Down1: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1765863010.1686447']
+2025-12-16 14:30:10,171 OutputThread INFO Forward message from Main thread to Downstream Down4: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1765863010.1686447']
+2025-12-16 14:30:10,172 OutputThread INFO Forward message from Main thread to Downstream Down2: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1765863010.1686447']
+2025-12-16 14:30:10,172 OutputThread INFO Forward message from Main thread to Downstream Down3: [b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1765863010.1686447']
+2025-12-16 14:30:33,146 MainThread INFO Ctrl+C. closing...
+2025-12-16 14:30:33,237 OutputThread INFO OutputThread stopped.
+2025-12-16 14:30:33,237 InputThread INFO InputThread stopped.
+2025-12-16 14:30:33,237 MainThread INFO MainThread stopped.
+2025-12-16 14:30:33,238 MainThread INFO Middleware mw_instance_1 terminated。

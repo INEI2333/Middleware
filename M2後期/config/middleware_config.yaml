@@ -1,0 +1,14 @@
+Middleware_ID: comp_1
+Upstreams:
+  - peer_id: TesterUp_1
+    addr: tcp://127.0.0.1:5550
+    mode: connect  # option 'bind' or 'connect'
+  #- peer_id: TesterUp_2
+  #  addr: tcp://127.0.0.1:5551
+  #  mode: connect  # option 'bind' or 'connect'
+Downstream:
+  addr: tcp://127.0.0.1:5556
+  mode: bind # option 'bind' or 'connect'
+Tester:
+  peer_nums: 8       # 或 n_down
+  total_rounds: 600     # 或 n_msg

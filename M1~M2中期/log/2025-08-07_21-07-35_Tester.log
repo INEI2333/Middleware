@@ -1,0 +1,140 @@
+2025-08-07 21:07:35,232 MainThread INFO ZeroMQ Tester started.
+2025-08-07 21:07:35,232 MainThread INFO Waiting for middleware to fully start...
+2025-08-07 21:07:35,233 Down-Down1 INFO Downstream Down1 connect tcp://0.0.0.0:5556
+2025-08-07 21:07:35,233 Down-Down2 INFO Downstream Down2 connect tcp://0.0.0.0:5556
+2025-08-07 21:07:35,234 Down-Down3 INFO Downstream Down3 connect tcp://0.0.0.0:5556
+2025-08-07 21:07:35,234 Down-Down4 INFO Downstream Down4 connect tcp://0.0.0.0:5556
+2025-08-07 21:07:35,734 Down-Down1 INFO Down1 send HELLO
+2025-08-07 21:07:35,735 Down-Down2 INFO Down2 send HELLO
+2025-08-07 21:07:35,735 Down-Down3 INFO Down3 send HELLO
+2025-08-07 21:07:35,735 Down-Down4 INFO Down4 send HELLO
+2025-08-07 21:07:35,737 Down-Down1 INFO Downstream Down1 registered successfully
+2025-08-07 21:07:35,737 Down-Down4 INFO Downstream Down4 registered successfully
+2025-08-07 21:07:35,738 Down-Down2 INFO Downstream Down2 registered successfully
+2025-08-07 21:07:35,738 Down-Down3 INFO Downstream Down3 registered successfully
+2025-08-07 21:07:35,739 Up-TesterUp_1 INFO Upstream TesterUp_1 received all downstream registration success signals, starting to send messages.
+2025-08-07 21:07:35,739 Up-TesterUp_2 INFO Upstream TesterUp_2 received all downstream registration success signals, starting to send messages.
+2025-08-07 21:07:35,739 Up-TesterUp_1 INFO Upstream TesterUp_1 bind tcp://127.0.0.1:5550
+2025-08-07 21:07:35,739 Up-TesterUp_2 INFO Upstream TesterUp_2 bind tcp://127.0.0.1:5551
+2025-08-07 21:07:36,741 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1754572056.7409124']
+2025-08-07 21:07:36,741 Up-TesterUp_2 INFO Upstream TesterUp_2 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1754572056.7412176']
+2025-08-07 21:07:36,742 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1754572056.7409124'] latency=1.50ms
+2025-08-07 21:07:36,743 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1754572056.7409124'] latency=2.09ms
+2025-08-07 21:07:36,743 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1754572056.7409124'] latency=2.29ms
+2025-08-07 21:07:36,743 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-0', b'1754572056.7409124'] latency=2.50ms
+2025-08-07 21:07:36,743 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1754572056.7412176'] latency=2.50ms
+2025-08-07 21:07:36,743 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1754572056.7412176'] latency=2.67ms
+2025-08-07 21:07:36,744 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1754572056.7412176'] latency=2.89ms
+2025-08-07 21:07:36,744 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-0', b'1754572056.7412176'] latency=3.11ms
+2025-08-07 21:07:37,742 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1754572057.7426722']
+2025-08-07 21:07:37,743 Up-TesterUp_2 INFO Upstream TesterUp_2 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1754572057.7429566']
+2025-08-07 21:07:37,744 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1754572057.7426722'] latency=1.63ms
+2025-08-07 21:07:37,744 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1754572057.7426722'] latency=2.01ms
+2025-08-07 21:07:37,744 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1754572057.7426722'] latency=2.31ms
+2025-08-07 21:07:37,745 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-1', b'1754572057.7426722'] latency=2.47ms
+2025-08-07 21:07:37,745 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1754572057.7429566'] latency=2.41ms
+2025-08-07 21:07:37,745 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1754572057.7429566'] latency=2.66ms
+2025-08-07 21:07:37,745 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1754572057.7429566'] latency=2.89ms
+2025-08-07 21:07:37,746 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-1', b'1754572057.7429566'] latency=3.09ms
+2025-08-07 21:07:38,744 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1754572058.7443984']
+2025-08-07 21:07:38,744 Up-TesterUp_2 INFO Upstream TesterUp_2 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1754572058.7446837']
+2025-08-07 21:07:38,746 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1754572058.7443984'] latency=2.07ms
+2025-08-07 21:07:38,746 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1754572058.7443984'] latency=2.54ms
+2025-08-07 21:07:38,747 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1754572058.7443984'] latency=2.76ms
+2025-08-07 21:07:38,747 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-2', b'1754572058.7443984'] latency=3.00ms
+2025-08-07 21:07:38,747 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1754572058.7446837'] latency=2.94ms
+2025-08-07 21:07:38,747 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1754572058.7446837'] latency=3.22ms
+2025-08-07 21:07:38,748 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1754572058.7446837'] latency=3.44ms
+2025-08-07 21:07:38,748 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-2', b'1754572058.7446837'] latency=3.69ms
+2025-08-07 21:07:39,746 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1754572059.746236']
+2025-08-07 21:07:39,746 Up-TesterUp_2 INFO Upstream TesterUp_2 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1754572059.7465074']
+2025-08-07 21:07:39,748 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1754572059.746236'] latency=1.82ms
+2025-08-07 21:07:39,748 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1754572059.746236'] latency=2.20ms
+2025-08-07 21:07:39,748 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1754572059.746236'] latency=2.42ms
+2025-08-07 21:07:39,748 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-3', b'1754572059.746236'] latency=2.67ms
+2025-08-07 21:07:39,749 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1754572059.7465074'] latency=2.63ms
+2025-08-07 21:07:39,749 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1754572059.7465074'] latency=2.86ms
+2025-08-07 21:07:39,749 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1754572059.7465074'] latency=3.15ms
+2025-08-07 21:07:39,749 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-3', b'1754572059.7465074'] latency=3.28ms
+2025-08-07 21:07:40,748 Up-TesterUp_1 INFO Upstream TesterUp_1 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1754572060.747986']
+2025-08-07 21:07:40,748 Up-TesterUp_2 INFO Upstream TesterUp_2 sending: [b'mw_instance_1', b'', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1754572060.7485116']
+2025-08-07 21:07:40,749 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1754572060.747986'] latency=1.66ms
+2025-08-07 21:07:40,750 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1754572060.747986'] latency=2.15ms
+2025-08-07 21:07:40,750 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1754572060.747986'] latency=2.63ms
+2025-08-07 21:07:40,750 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_1', b'REQUEST', b'TesterUp_1', b'DATA-4', b'1754572060.747986'] latency=2.89ms
+2025-08-07 21:07:40,751 Down-Down1 INFO Downstream Down1 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1754572060.7485116'] latency=2.51ms
+2025-08-07 21:07:40,751 Down-Down4 INFO Downstream Down4 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1754572060.7485116'] latency=2.74ms
+2025-08-07 21:07:40,751 Down-Down2 INFO Downstream Down2 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1754572060.7485116'] latency=2.94ms
+2025-08-07 21:07:40,751 Down-Down3 INFO Downstream Down3 received: [b'mw_instance_1', b'', b'TesterUp_2', b'REQUEST', b'TesterUp_2', b'DATA-4', b'1754572060.7485116'] latency=3.15ms
+2025-08-07 21:07:41,750 Up-TesterUp_1 INFO Up-TesterUp_1 terminated.
+2025-08-07 21:07:41,750 Up-TesterUp_2 INFO Up-TesterUp_2 terminated.
+2025-08-07 21:07:44,561 Down-Down2 INFO Down-Down2 terminated.
+2025-08-07 21:07:44,561 Down-Down3 INFO Down-Down3 terminated.
+2025-08-07 21:07:44,561 Down-Down1 INFO Down-Down1 terminated.
+2025-08-07 21:07:44,561 Down-Down4 INFO Down-Down4 terminated.
+2025-08-07 21:07:45,246 MainThread INFO 
+==== Performance Statistics Report ====
+2025-08-07 21:07:45,246 MainThread INFO  TesterUp_1->Down1:
+2025-08-07 21:07:45,247 MainThread INFO   Data 0: Count=1 Latency=1.50ms
+2025-08-07 21:07:45,247 MainThread INFO   Data 1: Count=1 Latency=1.63ms
+2025-08-07 21:07:45,247 MainThread INFO   Data 2: Count=1 Latency=2.07ms
+2025-08-07 21:07:45,247 MainThread INFO   Data 3: Count=1 Latency=1.82ms
+2025-08-07 21:07:45,247 MainThread INFO   Data 4: Count=1 Latency=1.66ms
+2025-08-07 21:07:45,248 MainThread INFO  TesterUp_1->Down2:
+2025-08-07 21:07:45,248 MainThread INFO   Data 0: Count=1 Latency=2.29ms
+2025-08-07 21:07:45,248 MainThread INFO   Data 1: Count=1 Latency=2.31ms
+2025-08-07 21:07:45,248 MainThread INFO   Data 2: Count=1 Latency=2.76ms
+2025-08-07 21:07:45,248 MainThread INFO   Data 3: Count=1 Latency=2.42ms
+2025-08-07 21:07:45,248 MainThread INFO   Data 4: Count=1 Latency=2.63ms
+2025-08-07 21:07:45,249 MainThread INFO  TesterUp_1->Down3:
+2025-08-07 21:07:45,249 MainThread INFO   Data 0: Count=1 Latency=2.50ms
+2025-08-07 21:07:45,249 MainThread INFO   Data 1: Count=1 Latency=2.47ms
+2025-08-07 21:07:45,249 MainThread INFO   Data 2: Count=1 Latency=3.00ms
+2025-08-07 21:07:45,249 MainThread INFO   Data 3: Count=1 Latency=2.67ms
+2025-08-07 21:07:45,249 MainThread INFO   Data 4: Count=1 Latency=2.89ms
+2025-08-07 21:07:45,249 MainThread INFO  TesterUp_1->Down4:
+2025-08-07 21:07:45,250 MainThread INFO   Data 0: Count=1 Latency=2.09ms
+2025-08-07 21:07:45,250 MainThread INFO   Data 1: Count=1 Latency=2.01ms
+2025-08-07 21:07:45,250 MainThread INFO   Data 2: Count=1 Latency=2.54ms
+2025-08-07 21:07:45,250 MainThread INFO   Data 3: Count=1 Latency=2.20ms
+2025-08-07 21:07:45,250 MainThread INFO   Data 4: Count=1 Latency=2.15ms
+2025-08-07 21:07:45,251 MainThread INFO  TesterUp_2->Down1:
+2025-08-07 21:07:45,251 MainThread INFO   Data 0: Count=1 Latency=2.50ms
+2025-08-07 21:07:45,251 MainThread INFO   Data 1: Count=1 Latency=2.41ms
+2025-08-07 21:07:45,251 MainThread INFO   Data 2: Count=1 Latency=2.94ms
+2025-08-07 21:07:45,251 MainThread INFO   Data 3: Count=1 Latency=2.63ms
+2025-08-07 21:07:45,252 MainThread INFO   Data 4: Count=1 Latency=2.51ms
+2025-08-07 21:07:45,252 MainThread INFO  TesterUp_2->Down2:
+2025-08-07 21:07:45,252 MainThread INFO   Data 0: Count=1 Latency=2.89ms
+2025-08-07 21:07:45,252 MainThread INFO   Data 1: Count=1 Latency=2.89ms
+2025-08-07 21:07:45,252 MainThread INFO   Data 2: Count=1 Latency=3.44ms
+2025-08-07 21:07:45,252 MainThread INFO   Data 3: Count=1 Latency=3.15ms
+2025-08-07 21:07:45,253 MainThread INFO   Data 4: Count=1 Latency=2.94ms
+2025-08-07 21:07:45,253 MainThread INFO  TesterUp_2->Down3:
+2025-08-07 21:07:45,253 MainThread INFO   Data 0: Count=1 Latency=3.11ms
+2025-08-07 21:07:45,253 MainThread INFO   Data 1: Count=1 Latency=3.09ms
+2025-08-07 21:07:45,253 MainThread INFO   Data 2: Count=1 Latency=3.69ms
+2025-08-07 21:07:45,253 MainThread INFO   Data 3: Count=1 Latency=3.28ms
+2025-08-07 21:07:45,254 MainThread INFO   Data 4: Count=1 Latency=3.15ms
+2025-08-07 21:07:45,254 MainThread INFO  TesterUp_2->Down4:
+2025-08-07 21:07:45,254 MainThread INFO   Data 0: Count=1 Latency=2.67ms
+2025-08-07 21:07:45,254 MainThread INFO   Data 1: Count=1 Latency=2.66ms
+2025-08-07 21:07:45,254 MainThread INFO   Data 2: Count=1 Latency=3.22ms
+2025-08-07 21:07:45,254 MainThread INFO   Data 3: Count=1 Latency=2.86ms
+2025-08-07 21:07:45,255 MainThread INFO   Data 4: Count=1 Latency=2.74ms
+2025-08-07 21:07:45,255 MainThread INFO 
+------ Summary ------
+2025-08-07 21:07:45,255 MainThread INFO  Overall average latency=2.61ms
+2025-08-07 21:07:45,255 MainThread INFO  Max=3.69ms, Min=1.50ms
+2025-08-07 21:07:45,255 MainThread INFO  Total messages received=40
+2025-08-07 21:07:45,255 MainThread INFO  Total messages should be 40，actual received 40，lost 0
+2025-08-07 21:07:45,255 MainThread INFO 
+[Packet Loss/Out-of-Order Detection]
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_1->Down1 Lost: None
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_1->Down2 Lost: None
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_1->Down3 Lost: None
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_1->Down4 Lost: None
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_2->Down1 Lost: None
+2025-08-07 21:07:45,256 MainThread INFO  TesterUp_2->Down2 Lost: None
+2025-08-07 21:07:45,257 MainThread INFO  TesterUp_2->Down3 Lost: None
+2025-08-07 21:07:45,257 MainThread INFO  TesterUp_2->Down4 Lost: None

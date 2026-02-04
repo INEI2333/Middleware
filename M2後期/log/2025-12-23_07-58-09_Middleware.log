@@ -1,0 +1,35 @@
+2025-12-23 07:58:09,859 MainThread INFO Starting middleware comp_1 ...
+2025-12-23 07:58:09,860 MainThread INFO MainThread start.
+2025-12-23 07:58:10,060 InputThread INFO InputThread start.
+2025-12-23 07:58:10,061 OutputThread INFO OutputThread start.
+2025-12-23 07:58:10,061 CmdThread INFO CmdThread connect operator at tcp://127.0.0.1:6000 (id=comp_1)
+2025-12-23 07:58:10,061 InputThread INFO [input] connect: tcp://127.0.0.1:5550
+2025-12-23 07:58:10,062 MainThread INFO All threads started.
+2025-12-23 07:58:10,062 OutputThread INFO [output] bind: tcp://127.0.0.1:5556
+2025-12-23 07:58:10,063 InputThread INFO [input] connect: tcp://127.0.0.1:5551
+2025-12-23 07:59:59,742 InputThread INFO InputThread stopped.
+2025-12-23 07:59:59,742 OutputThread INFO OutputThread stopped.
+2025-12-23 07:59:59,747 MainThread INFO Internal data sockets rebuilt successfully.
+2025-12-23 07:59:59,748 InputThread INFO InputThread start.
+2025-12-23 07:59:59,748 OutputThread INFO OutputThread start.
+2025-12-23 07:59:59,748 InputThread INFO [input] connect: tcp://127.0.0.1:5550
+2025-12-23 07:59:59,748 OutputThread INFO [output] bind: tcp://127.0.0.1:5556
+2025-12-23 07:59:59,749 InputThread INFO [input] connect: tcp://127.0.0.1:5551
+2025-12-23 07:59:59,775 CmdThread INFO CmdThread stopped.
+2025-12-23 07:59:59,776 CmdThread INFO CmdThread connect operator at tcp://127.0.0.1:6000 (id=comp_modified)
+2025-12-23 08:00:32,584 MainThread INFO Registered downstream: Down0
+2025-12-23 08:00:32,585 MainThread INFO Registered downstream: Down1
+2025-12-23 08:00:32,585 MainThread INFO Registered downstream: Down2
+2025-12-23 08:00:32,585 MainThread INFO Registered downstream: Down3
+2025-12-23 08:00:32,586 MainThread INFO Registered downstream: Down4
+2025-12-23 08:00:32,586 MainThread INFO Registered downstream: Down5
+2025-12-23 08:00:32,587 MainThread INFO Registered downstream: Down6
+2025-12-23 08:00:32,587 MainThread INFO Registered downstream: Down7
+2025-12-23 08:00:32,587 MainThread INFO Registered downstream: Down8
+2025-12-23 08:00:32,587 MainThread INFO Registered downstream: Down9
+2025-12-23 08:02:50,417 MainThread INFO Ctrl+C. closing...
+2025-12-23 08:02:50,446 CmdThread INFO CmdThread stopped.
+2025-12-23 08:02:50,501 MainThread INFO MainThread stopped.
+2025-12-23 08:02:50,502 OutputThread INFO OutputThread stopped.
+2025-12-23 08:02:50,502 InputThread INFO InputThread stopped.
+2025-12-23 08:02:50,503 MainThread INFO Middleware stopped.

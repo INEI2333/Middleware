@@ -1,0 +1,198 @@
+2025-12-16 14:29:46,083 MainThread INFO ZeroMQ Tester started.
+2025-12-16 14:29:46,084 MainThread INFO Waiting for middleware to fully start...
+2025-12-16 14:29:46,085 Down-Down1 INFO Downstream Down1 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,085 Down-Down2 INFO Downstream Down2 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,086 Down-Down3 INFO Downstream Down3 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,086 Down-Down4 INFO Downstream Down4 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,386 MainThread INFO ZeroMQ Tester started.
+2025-12-16 14:29:46,386 MainThread INFO Waiting for middleware to fully start...
+2025-12-16 14:29:46,387 Down-Down1 INFO Downstream Down1 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,388 Down-Down2 INFO Downstream Down2 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,388 Down-Down3 INFO Downstream Down3 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,389 Down-Down4 INFO Downstream Down4 connect tcp://0.0.0.0:5556
+2025-12-16 14:29:46,586 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:46,587 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:46,587 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:46,587 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:46,889 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:46,889 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:46,890 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:46,890 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:47,588 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:47,588 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:47,589 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:47,589 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:47,891 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:47,891 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:47,891 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:47,892 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:48,590 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:48,591 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:48,591 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:48,592 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:48,893 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:48,893 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:48,894 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:48,894 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:49,592 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:49,592 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:49,593 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:49,593 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:49,895 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:49,895 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:49,895 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:49,895 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:50,593 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:50,594 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:50,594 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:50,595 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:50,897 Down-Down1 INFO Down1 send HELLO
+2025-12-16 14:29:50,897 Down-Down3 INFO Down3 send HELLO
+2025-12-16 14:29:50,897 Down-Down2 INFO Down2 send HELLO
+2025-12-16 14:29:50,897 Down-Down4 INFO Down4 send HELLO
+2025-12-16 14:29:51,595 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:51,595 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:51,596 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:51,596 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:51,898 Down-Down1 WARNING Downstream Down1 registration timeout, retrying...
+2025-12-16 14:29:51,899 Down-Down3 WARNING Downstream Down3 registration timeout, retrying...
+2025-12-16 14:29:51,899 Down-Down2 WARNING Downstream Down2 registration timeout, retrying...
+2025-12-16 14:29:51,899 Down-Down4 WARNING Downstream Down4 registration timeout, retrying...
+2025-12-16 14:29:52,596 Down-Down1 ERROR Downstream Down1 final registration failed, closing...
+2025-12-16 14:29:52,597 Down-Down2 ERROR Downstream Down2 final registration failed, closing...
+2025-12-16 14:29:52,597 Down-Down3 ERROR Downstream Down3 final registration failed, closing...
+2025-12-16 14:29:52,598 Down-Down4 ERROR Downstream Down4 final registration failed, closing...
+2025-12-16 14:29:52,900 Down-Down1 ERROR Downstream Down1 final registration failed, closing...
+2025-12-16 14:29:52,900 Down-Down3 ERROR Downstream Down3 final registration failed, closing...
+2025-12-16 14:29:52,901 Down-Down2 ERROR Downstream Down2 final registration failed, closing...
+2025-12-16 14:29:52,901 Down-Down4 ERROR Downstream Down4 final registration failed, closing...
+2025-12-16 14:29:56,087 Up-TesterUp_1 ERROR Upstream TesterUp_1 waited for downstream registration to time out, closing...
+2025-12-16 14:29:56,087 Up-TesterUp_2 ERROR Upstream TesterUp_2 waited for downstream registration to time out, closing...
+2025-12-16 14:29:56,098 MainThread INFO 
+==== Performance Statistics Report ====
+2025-12-16 14:29:56,098 MainThread INFO  TesterUp_1->Down1:
+2025-12-16 14:29:56,098 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,099 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,099 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,099 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,099 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,100 MainThread INFO  TesterUp_1->Down2:
+2025-12-16 14:29:56,100 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,100 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,100 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,100 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,100 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,101 MainThread INFO  TesterUp_1->Down3:
+2025-12-16 14:29:56,101 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,101 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,101 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,101 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,102 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,102 MainThread INFO  TesterUp_1->Down4:
+2025-12-16 14:29:56,102 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,102 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,102 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,103 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,103 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,103 MainThread INFO  TesterUp_2->Down1:
+2025-12-16 14:29:56,103 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,103 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,103 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,104 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,104 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,104 MainThread INFO  TesterUp_2->Down2:
+2025-12-16 14:29:56,104 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,104 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,104 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,105 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,105 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,105 MainThread INFO  TesterUp_2->Down3:
+2025-12-16 14:29:56,105 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,105 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,105 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,106 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,107 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,108 MainThread INFO  TesterUp_2->Down4:
+2025-12-16 14:29:56,108 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,109 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,109 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,109 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,109 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,110 MainThread INFO 
+------ Summary ------
+2025-12-16 14:29:56,110 MainThread INFO  Total messages should be 40，actual received 0，lost 40
+2025-12-16 14:29:56,110 MainThread INFO 
+[Packet Loss/Out-of-Order Detection]
+2025-12-16 14:29:56,110 MainThread INFO  TesterUp_1->Down1 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,110 MainThread INFO  TesterUp_1->Down2 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,111 MainThread INFO  TesterUp_1->Down3 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,111 MainThread INFO  TesterUp_1->Down4 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,111 MainThread INFO  TesterUp_2->Down1 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,111 MainThread INFO  TesterUp_2->Down2 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,111 MainThread INFO  TesterUp_2->Down3 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,112 MainThread INFO  TesterUp_2->Down4 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,389 Up-TesterUp_1 ERROR Upstream TesterUp_1 waited for downstream registration to time out, closing...
+2025-12-16 14:29:56,389 Up-TesterUp_2 ERROR Upstream TesterUp_2 waited for downstream registration to time out, closing...
+2025-12-16 14:29:56,400 MainThread INFO 
+==== Performance Statistics Report ====
+2025-12-16 14:29:56,400 MainThread INFO  TesterUp_1->Down1:
+2025-12-16 14:29:56,400 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,401 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,401 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,401 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,401 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,401 MainThread INFO  TesterUp_1->Down2:
+2025-12-16 14:29:56,402 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,402 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,402 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,402 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,403 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,403 MainThread INFO  TesterUp_1->Down3:
+2025-12-16 14:29:56,403 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,403 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,403 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,404 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,404 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,404 MainThread INFO  TesterUp_1->Down4:
+2025-12-16 14:29:56,404 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,405 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,405 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,405 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,405 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,406 MainThread INFO  TesterUp_2->Down1:
+2025-12-16 14:29:56,406 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,406 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,406 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,407 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,407 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,407 MainThread INFO  TesterUp_2->Down2:
+2025-12-16 14:29:56,407 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,407 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,408 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,408 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,408 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,408 MainThread INFO  TesterUp_2->Down3:
+2025-12-16 14:29:56,408 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,409 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,409 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,409 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,409 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,409 MainThread INFO  TesterUp_2->Down4:
+2025-12-16 14:29:56,410 MainThread WARNING   Data 0: [Lost]
+2025-12-16 14:29:56,410 MainThread WARNING   Data 1: [Lost]
+2025-12-16 14:29:56,410 MainThread WARNING   Data 2: [Lost]
+2025-12-16 14:29:56,410 MainThread WARNING   Data 3: [Lost]
+2025-12-16 14:29:56,410 MainThread WARNING   Data 4: [Lost]
+2025-12-16 14:29:56,411 MainThread INFO 
+------ Summary ------
+2025-12-16 14:29:56,411 MainThread INFO  Total messages should be 40，actual received 0，lost 40
+2025-12-16 14:29:56,411 MainThread INFO 
+[Packet Loss/Out-of-Order Detection]
+2025-12-16 14:29:56,411 MainThread INFO  TesterUp_1->Down1 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,411 MainThread INFO  TesterUp_1->Down2 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,411 MainThread INFO  TesterUp_1->Down3 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,412 MainThread INFO  TesterUp_1->Down4 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,412 MainThread INFO  TesterUp_2->Down1 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,412 MainThread INFO  TesterUp_2->Down2 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,412 MainThread INFO  TesterUp_2->Down3 Lost: [0, 1, 2, 3, 4]
+2025-12-16 14:29:56,412 MainThread INFO  TesterUp_2->Down4 Lost: [0, 1, 2, 3, 4]

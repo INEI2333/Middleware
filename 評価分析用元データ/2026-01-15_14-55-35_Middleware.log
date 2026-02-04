@@ -1,0 +1,78 @@
+2026-01-15 14:55:35,402 MainThread INFO Starting middleware comp_1 ...
+2026-01-15 14:55:35,403 MainThread INFO MainThread start.
+2026-01-15 14:55:35,603 InputThread INFO InputThread start.
+2026-01-15 14:55:35,604 OutputThread INFO OutputThread start.
+2026-01-15 14:55:35,604 CmdThread INFO CmdThread connect operator at tcp://127.0.0.1:6000 (id=comp_1)
+2026-01-15 14:55:35,604 InputThread INFO [input] connect: tcp://127.0.0.1:5550
+2026-01-15 14:55:35,604 MainThread INFO All threads started.
+2026-01-15 14:55:35,605 OutputThread INFO [output] bind: tcp://127.0.0.1:5556
+2026-01-15 14:55:37,852 MainThread INFO Registered downstream: Down0
+2026-01-15 14:55:37,852 MainThread INFO Registered downstream: Down1
+2026-01-15 14:55:37,853 MainThread INFO Registered downstream: Down2
+2026-01-15 14:55:37,853 MainThread INFO Registered downstream: Down3
+2026-01-15 14:55:37,854 MainThread INFO Registered downstream: Down4
+2026-01-15 14:55:37,854 MainThread INFO Registered downstream: Down5
+2026-01-15 14:55:37,855 MainThread INFO Registered downstream: Down6
+2026-01-15 14:55:37,855 MainThread INFO Registered downstream: Down7
+2026-01-15 14:55:37,856 MainThread INFO Registered downstream: Down9
+2026-01-15 14:55:37,856 MainThread INFO Registered downstream: Down8
+2026-01-15 14:55:37,856 MainThread INFO Registered downstream: Down10
+2026-01-15 14:55:37,857 MainThread INFO Registered downstream: Down11
+2026-01-15 14:55:37,857 MainThread INFO Registered downstream: Down12
+2026-01-15 14:55:37,858 MainThread INFO Registered downstream: Down13
+2026-01-15 14:55:37,858 MainThread INFO Registered downstream: Down14
+2026-01-15 14:55:37,859 MainThread INFO Registered downstream: Down15
+2026-01-15 14:55:37,859 MainThread INFO Registered downstream: Down16
+2026-01-15 14:55:37,859 MainThread INFO Registered downstream: Down18
+2026-01-15 14:55:37,860 MainThread INFO Registered downstream: Down17
+2026-01-15 14:55:37,881 MainThread INFO Registered downstream: Down19
+2026-01-15 14:55:37,882 MainThread INFO Registered downstream: Down20
+2026-01-15 14:55:37,882 MainThread INFO Registered downstream: Down21
+2026-01-15 14:55:37,883 MainThread INFO Registered downstream: Down22
+2026-01-15 14:55:37,883 MainThread INFO Registered downstream: Down23
+2026-01-15 14:55:37,884 MainThread INFO Registered downstream: Down25
+2026-01-15 14:55:37,884 MainThread INFO Registered downstream: Down26
+2026-01-15 14:55:37,884 MainThread INFO Registered downstream: Down24
+2026-01-15 14:55:37,885 MainThread INFO Registered downstream: Down27
+2026-01-15 14:55:37,885 MainThread INFO Registered downstream: Down28
+2026-01-15 14:55:37,886 MainThread INFO Registered downstream: Down29
+2026-01-15 14:55:37,886 MainThread INFO Registered downstream: Down30
+2026-01-15 14:55:37,887 MainThread INFO Registered downstream: Down31
+2026-01-15 14:55:37,887 MainThread INFO Registered downstream: Down33
+2026-01-15 14:55:37,888 MainThread INFO Registered downstream: Down32
+2026-01-15 14:55:37,888 MainThread INFO Registered downstream: Down34
+2026-01-15 14:55:37,889 MainThread INFO Registered downstream: Down35
+2026-01-15 14:55:37,889 MainThread INFO Registered downstream: Down36
+2026-01-15 14:55:37,890 MainThread INFO Registered downstream: Down39
+2026-01-15 14:55:37,890 MainThread INFO Registered downstream: Down37
+2026-01-15 14:55:37,890 MainThread INFO Registered downstream: Down38
+2026-01-15 14:55:37,891 MainThread INFO Registered downstream: Down40
+2026-01-15 14:55:37,891 MainThread INFO Registered downstream: Down41
+2026-01-15 14:55:37,891 MainThread INFO Registered downstream: Down43
+2026-01-15 14:55:37,892 MainThread INFO Registered downstream: Down42
+2026-01-15 14:55:37,917 MainThread INFO Registered downstream: Down44
+2026-01-15 14:55:37,918 MainThread INFO Registered downstream: Down45
+2026-01-15 14:55:37,918 MainThread INFO Registered downstream: Down46
+2026-01-15 14:55:37,919 MainThread INFO Registered downstream: Down47
+2026-01-15 14:55:37,919 MainThread INFO Registered downstream: Down48
+2026-01-15 14:55:37,920 MainThread INFO Registered downstream: Down52
+2026-01-15 14:55:37,920 MainThread INFO Registered downstream: Down53
+2026-01-15 14:55:37,920 MainThread INFO Registered downstream: Down49
+2026-01-15 14:55:37,920 MainThread INFO Registered downstream: Down51
+2026-01-15 14:55:37,921 MainThread INFO Registered downstream: Down50
+2026-01-15 14:55:37,921 MainThread INFO Registered downstream: Down54
+2026-01-15 14:55:37,921 MainThread INFO Registered downstream: Down59
+2026-01-15 14:55:37,922 MainThread INFO Registered downstream: Down55
+2026-01-15 14:55:37,922 MainThread INFO Registered downstream: Down60
+2026-01-15 14:55:37,922 MainThread INFO Registered downstream: Down57
+2026-01-15 14:55:37,922 MainThread INFO Registered downstream: Down56
+2026-01-15 14:55:37,923 MainThread INFO Registered downstream: Down58
+2026-01-15 14:55:37,923 MainThread INFO Registered downstream: Down61
+2026-01-15 14:55:37,923 MainThread INFO Registered downstream: Down63
+2026-01-15 14:55:37,923 MainThread INFO Registered downstream: Down62
+2026-01-15 14:55:44,984 MainThread INFO Ctrl+C. closing...
+2026-01-15 14:55:45,030 InputThread INFO InputThread stopped.
+2026-01-15 14:55:45,032 MainThread INFO MainThread stopped.
+2026-01-15 14:55:45,033 OutputThread INFO OutputThread stopped.
+2026-01-15 14:55:45,033 CmdThread INFO CmdThread stopped.
+2026-01-15 14:55:45,035 MainThread INFO Middleware stopped.
