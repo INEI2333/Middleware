@@ -1,0 +1,297 @@
+2024-07-16 16:33:13,268 - INFO - Input backend socket bound to tcp://*:5521
+2024-07-16 16:33:13,269 - INFO - Input frontend socket bound to inproc://input-terminal-comp1
+2024-07-16 16:33:13,269 - INFO - Output backend socket bound to tcp://*:5522
+2024-07-16 16:33:13,269 - INFO - Output frontend socket bound to inproc://output-terminal-comp1
+2024-07-16 16:33:13,269 - INFO - Input terminal socket connected to inproc://input-terminal-comp1
+2024-07-16 16:33:13,269 - INFO - Output terminal socket connected to inproc://output-terminal-comp1
+2024-07-16 16:33:14,271 - INFO - Start handshake
+2024-07-16 16:33:14,271 - INFO - Thread Initialized
+2024-07-16 16:33:16,373 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115196.3729608', b'Message from upstream 0', b'', b'', b'']
+2024-07-16 16:33:16,374 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115196.3729608', b'Message from upstream 0', b'', b'', b'']
+2024-07-16 16:33:16,374 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115196.3729608', b'Message from upstream 0', b'', b'', b'']
+2024-07-16 16:33:16,374 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115196.3729608', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:16,374 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115196.3729608', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:16,374 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:17,374 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115197.3743706', b'Message from upstream 1', b'', b'', b'']
+2024-07-16 16:33:17,375 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115197.3743706', b'Message from upstream 1', b'', b'', b'']
+2024-07-16 16:33:17,375 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115197.3743706', b'Message from upstream 1', b'', b'', b'']
+2024-07-16 16:33:17,375 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115197.3743706', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:17,375 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115197.3743706', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:17,376 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:18,375 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115198.3756282', b'Message from upstream 2', b'', b'', b'']
+2024-07-16 16:33:18,376 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115198.3756282', b'Message from upstream 2', b'', b'', b'']
+2024-07-16 16:33:18,376 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115198.3756282', b'Message from upstream 2', b'', b'', b'']
+2024-07-16 16:33:18,376 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115198.3756282', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:18,376 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115198.3756282', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:18,377 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:19,377 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115199.3768418', b'Message from upstream 3', b'', b'', b'']
+2024-07-16 16:33:19,377 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115199.3768418', b'Message from upstream 3', b'', b'', b'']
+2024-07-16 16:33:19,377 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115199.3768418', b'Message from upstream 3', b'', b'', b'']
+2024-07-16 16:33:19,378 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115199.3768418', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:19,378 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115199.3768418', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:19,378 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:20,378 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115200.3780475', b'Message from upstream 4', b'', b'', b'']
+2024-07-16 16:33:20,379 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115200.3780475', b'Message from upstream 4', b'', b'', b'']
+2024-07-16 16:33:20,379 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115200.3780475', b'Message from upstream 4', b'', b'', b'']
+2024-07-16 16:33:20,380 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115200.3780475', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:20,380 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115200.3780475', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:20,380 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:21,380 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115201.3792906', b'Message from upstream b'', b'', b'']
+2024-07-16 16:33:21,381 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115201.3792906', b'Message from upstream 5', b'', b'', b'']
+2024-07-16 16:33:21,381 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115201.3792906', b'Message from upstream 5', b'', b'', b'']
+2024-07-16 16:33:21,381 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115201.3792906', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:21,381 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115201.3792906', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:21,382 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:22,381 - ERROR - Error in thread_input: not enough values to unpack (expected 7, got 6)
+2024-07-16 16:33:23,382 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115203.3818362', b'Message from upstream 7', b'', b'', b'']
+2024-07-16 16:33:23,382 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115203.3818362', b'Message from upstream 7', b'', b'', b'']
+2024-07-16 16:33:23,382 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115203.3818362', b'Message from upstream 7', b'', b'', b'']
+2024-07-16 16:33:23,383 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115203.3818362', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:23,383 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115203.3818362', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:23,383 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:24,383 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115204.3830924', b'Message from upstream 8', b'', b'', b'']
+2024-07-16 16:33:24,383 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115204.3830924', b'Message from upstream 8', b'', b'', b'']
+2024-07-16 16:33:24,384 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115204.3830924', b'Message from upstream 8', b'', b'', b'']
+2024-07-16 16:33:24,384 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115204.3830924', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:24,384 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115204.3830924', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:24,384 - CRITICAL - [End] Finished a loop
+2024-07-16 16:33:25,385 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721115205.3847537', b'Message from upstream 9', b'', b'', b'']
+2024-07-16 16:33:25,385 - INFO - [Input Backend] Forwarded message to frontend: [b'Upstream', b'Request', b'1721115205.3847537', b'Message from upstream 9', b'', b'', b'']
+2024-07-16 16:33:25,385 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721115205.3847537', b'Message from upstream 9', b'', b'', b'']
+2024-07-16 16:33:25,386 - INFO - [Main] Sent processed message to output: [b'Request', b'1721115205.3847537', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:25,386 - INFO - [Output Frontend] Forwarding message to backend: [b'output_terminal', b'Request', b'1721115205.3847537', b'Message to downstream', b'', b'', b'']
+2024-07-16 16:33:25,386 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:32,016 - INFO - Input backend socket bound to tcp://*:5521
+2024-07-17 11:05:32,017 - INFO - Input frontend socket bound to inproc://input-terminal
+2024-07-17 11:05:32,017 - INFO - Output backend socket bound to tcp://*:5522
+2024-07-17 11:05:32,017 - INFO - Output frontend socket bound to inproc://output-terminal
+2024-07-17 11:05:32,018 - INFO - Input terminal socket connected to inproc://input-terminal
+2024-07-17 11:05:32,018 - INFO - Output terminal socket connected to inproc://output-terminal
+2024-07-17 11:05:33,019 - INFO - Start handshake
+2024-07-17 11:05:33,020 - INFO - Checkpoint 1
+2024-07-17 11:05:35,519 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181935.518822', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 11:05:35,519 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181935.518822', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 11:05:35,520 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181935.518822', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 11:05:35,520 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181935.518822', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:35,520 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181935.518822', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:35,520 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181935.518822', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:35,520 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:36,520 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181936.520454', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 11:05:36,521 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181936.520454', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 11:05:36,521 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181936.520454', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 11:05:36,521 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181936.520454', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:36,522 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181936.520454', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:36,522 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181936.520454', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:36,522 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:37,522 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181937.521684', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 11:05:37,522 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181937.521684', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 11:05:37,522 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181937.521684', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 11:05:37,522 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181937.521684', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:37,522 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181937.521684', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:37,523 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181937.521684', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:37,523 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:38,523 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181938.5228992', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 11:05:38,523 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181938.5228992', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 11:05:38,523 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181938.5228992', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 11:05:38,524 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181938.5228992', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:38,524 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181938.5228992', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:38,524 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181938.5228992', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:38,524 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:39,525 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181939.5245688', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 11:05:39,525 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181939.5245688', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 11:05:39,525 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181939.5245688', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 11:05:39,526 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181939.5245688', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:39,526 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181939.5245688', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:39,526 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181939.5245688', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:39,526 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:40,526 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181940.5259044', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 11:05:40,526 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181940.5259044', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 11:05:40,526 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181940.5259044', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 11:05:40,527 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181940.5259044', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:40,527 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181940.5259044', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:40,527 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181940.5259044', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:40,528 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:41,527 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181941.5271795', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 11:05:41,528 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181941.5271795', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 11:05:41,528 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181941.5271795', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 11:05:41,528 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181941.5271795', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:41,528 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181941.5271795', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:41,529 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181941.5271795', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:41,529 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:42,529 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181942.5285563', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 11:05:42,529 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181942.5285563', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 11:05:42,530 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181942.5285563', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 11:05:42,530 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181942.5285563', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:42,530 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181942.5285563', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:42,530 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181942.5285563', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:42,531 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:43,531 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181943.5307338', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 11:05:43,532 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181943.5307338', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 11:05:43,532 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181943.5307338', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 11:05:43,532 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181943.5307338', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:43,532 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181943.5307338', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:43,532 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181943.5307338', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:43,533 - CRITICAL - [End] Finished a loop
+2024-07-17 11:05:44,534 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721181944.533496', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 11:05:44,535 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721181944.533496', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 11:05:44,535 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721181944.533496', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 11:05:44,535 - INFO - [Main] Sent processed message to output: [b'Request', b'1721181944.533496', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:44,535 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721181944.533496', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:44,536 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721181944.533496', b'Msg to downstream', b'', b'', b'']
+2024-07-17 11:05:44,536 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:17,801 - INFO - Input backend socket bound to tcp://*:5521
+2024-07-17 12:08:17,801 - INFO - Input frontend socket bound to inproc://input-terminal
+2024-07-17 12:08:17,802 - INFO - Output backend socket bound to tcp://*:5522
+2024-07-17 12:08:17,802 - INFO - Output frontend socket bound to inproc://output-terminal
+2024-07-17 12:08:17,802 - INFO - Input terminal socket connected to inproc://input-terminal
+2024-07-17 12:08:17,802 - INFO - Output terminal socket connected to inproc://output-terminal
+2024-07-17 12:08:18,803 - INFO - Start handshake
+2024-07-17 12:08:18,804 - INFO - Checkpoint 1
+2024-07-17 12:08:20,644 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185700.6435921', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:08:20,644 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185700.6435921', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:08:20,644 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185700.6435921', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:08:20,645 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185700.6435921', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:20,645 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185700.6435921', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:20,645 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185700.6435921', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:20,645 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:21,646 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185701.6456437', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:08:21,646 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185701.6456437', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:08:21,646 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185701.6456437', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:08:21,647 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185701.6456437', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:21,647 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185701.6456437', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:21,647 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185701.6456437', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:21,647 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:22,647 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185702.6468606', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:08:22,647 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185702.6468606', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:08:22,647 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185702.6468606', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:08:22,648 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185702.6468606', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:22,648 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185702.6468606', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:22,648 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185702.6468606', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:22,648 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:23,649 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185703.6481497', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:08:23,650 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185703.6481497', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:08:23,650 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185703.6481497', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:08:23,650 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185703.6481497', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:23,650 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185703.6481497', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:23,650 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185703.6481497', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:23,651 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:24,649 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185704.6494665', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:08:24,650 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185704.6494665', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:08:24,650 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185704.6494665', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:08:24,650 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185704.6494665', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:24,651 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185704.6494665', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:24,651 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185704.6494665', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:24,651 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:25,651 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185705.65069', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:08:25,651 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185705.65069', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:08:25,651 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185705.65069', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:08:25,652 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185705.65069', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:25,652 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185705.65069', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:25,652 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185705.65069', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:25,652 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:26,653 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185706.6519852', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:08:26,653 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185706.6519852', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:08:26,654 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185706.6519852', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:08:26,654 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185706.6519852', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:26,654 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185706.6519852', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:26,654 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185706.6519852', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:26,655 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:27,654 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185707.6543741', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:08:27,655 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185707.6543741', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:08:27,655 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185707.6543741', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:08:27,655 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185707.6543741', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:27,655 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185707.6543741', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:27,656 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185707.6543741', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:27,656 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:28,656 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185708.6556108', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:08:28,656 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185708.6556108', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:08:28,656 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185708.6556108', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:08:28,656 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185708.6556108', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:28,657 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185708.6556108', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:28,657 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185708.6556108', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:28,657 - CRITICAL - [End] Finished a loop
+2024-07-17 12:08:29,657 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185709.6568406', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:08:29,657 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185709.6568406', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:08:29,657 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185709.6568406', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:08:29,658 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185709.6568406', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:29,658 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185709.6568406', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:29,658 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185709.6568406', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:08:29,658 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:13,264 - INFO - Input backend socket bound to tcp://*:5521
+2024-07-17 12:09:13,264 - INFO - Input frontend socket bound to inproc://input-terminal
+2024-07-17 12:09:13,265 - INFO - Output backend socket bound to tcp://*:5522
+2024-07-17 12:09:13,265 - INFO - Output frontend socket bound to inproc://output-terminal
+2024-07-17 12:09:13,265 - INFO - Input terminal socket connected to inproc://input-terminal
+2024-07-17 12:09:13,265 - INFO - Output terminal socket connected to inproc://output-terminal
+2024-07-17 12:09:14,267 - INFO - Start handshake
+2024-07-17 12:09:14,268 - INFO - Checkpoint 1
+2024-07-17 12:09:15,724 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185755.7240467', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:09:15,725 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185755.7240467', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:09:15,725 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185755.7240467', b'Message from upstream 0', b'', b'', b'']
+2024-07-17 12:09:15,726 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185755.7240467', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,726 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185755.7240467', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,726 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185755.7240467', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,726 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:15,827 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185755.8267584', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:09:15,827 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185755.8267584', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:09:15,827 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185755.8267584', b'Message from upstream 1', b'', b'', b'']
+2024-07-17 12:09:15,828 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185755.8267584', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,828 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185755.8267584', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,828 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185755.8267584', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,828 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:15,929 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185755.9288833', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:09:15,929 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185755.9288833', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:09:15,929 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185755.9288833', b'Message from upstream 2', b'', b'', b'']
+2024-07-17 12:09:15,930 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185755.9288833', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,930 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185755.9288833', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,931 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185755.9288833', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:15,931 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,031 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.0307071', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:09:16,032 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.0307071', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:09:16,032 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.0307071', b'Message from upstream 3', b'', b'', b'']
+2024-07-17 12:09:16,032 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.0307071', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,032 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.0307071', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,033 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.0307071', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,033 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,131 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.1311376', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:09:16,131 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.1311376', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:09:16,131 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.1311376', b'Message from upstream 4', b'', b'', b'']
+2024-07-17 12:09:16,132 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.1311376', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,132 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.1311376', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,132 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.1311376', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,132 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,232 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.231918', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:09:16,232 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.231918', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:09:16,232 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.231918', b'Message from upstream 5', b'', b'', b'']
+2024-07-17 12:09:16,233 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.231918', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,233 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.231918', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,233 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.231918', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,233 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,332 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.3322756', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:09:16,333 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.3322756', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:09:16,333 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.3322756', b'Message from upstream 6', b'', b'', b'']
+2024-07-17 12:09:16,333 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.3322756', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,333 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.3322756', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,334 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.3322756', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,334 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,433 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.4328', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:09:16,433 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.4328', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:09:16,433 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.4328', b'Message from upstream 7', b'', b'', b'']
+2024-07-17 12:09:16,434 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.4328', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,434 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.4328', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,434 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.4328', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,434 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,534 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.533702', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:09:16,535 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.533702', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:09:16,535 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.533702', b'Message from upstream 8', b'', b'', b'']
+2024-07-17 12:09:16,535 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.533702', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,536 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.533702', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,536 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.533702', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,536 - CRITICAL - [End] Finished a loop
+2024-07-17 12:09:16,637 - INFO - [Input Backend] Received message from b'Upstream': [b'Upstream', b'Request', b'1721185756.6364112', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:09:16,637 - INFO - [Input Frontend] Forwarded message to Terminal: [b'Upstream', b'Request', b'1721185756.6364112', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:09:16,637 - INFO - [Main] Processing message: [b'input_frontend', b'Request', b'1721185756.6364112', b'Message from upstream 9', b'', b'', b'']
+2024-07-17 12:09:16,638 - INFO - [Main] Sent processed message to output: [b'Request', b'1721185756.6364112', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,638 - INFO - [Output Frontend] Received message from Terminal: [b'output_terminal', b'Request', b'1721185756.6364112', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,638 - INFO - [Output Backend] Forwarded message to b'Downstream': [b'output_terminal', b'Request', b'1721185756.6364112', b'Msg to downstream', b'', b'', b'']
+2024-07-17 12:09:16,638 - CRITICAL - [End] Finished a loop
